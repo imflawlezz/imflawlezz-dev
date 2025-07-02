@@ -10,6 +10,7 @@ export const InDev = () => {
                 imflawlezz
             </a>
             </p>
+            <p>Current ver: 0.1.1</p>
         </section>
     )
 }
