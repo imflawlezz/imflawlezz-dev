@@ -17,9 +17,10 @@ export const Hero = () => {
             <div className="w-full md:w-1/2 px-9 py-8 md:px-18 md:py-16">
                 <div className="flex flex-col gap-8">
                     <h1 className="font-bold text-3xl sm:text-3xl md:text-4xl lg:text-5xl">
-                        Hi, I&apos;m Egor —
-                        a frontend developer, student,
-                        and tech tinkerer.
+                        Hi, I&apos;m Egor —<br/>
+                        a <span className='text-accent'>frontend developer</span>,<br/>
+                        <span className='text-accent-secondary'>student</span>,<br/>
+                        and <span className='text-attention'>tech tinkerer</span>.
                     </h1>
 
                     <p className="text-base md:text-lg lg:text-xl text-muted">
