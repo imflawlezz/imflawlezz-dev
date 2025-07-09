@@ -23,19 +23,6 @@
   --attention: #F97316;
 }
 
-/*@media (prefers-color-scheme: dark) {*/
-/*  :root {*/
-/*    --background: #0D1117;*/
-/*    --foreground: #E5E7EB;*/
-
-/*    --accent: #3B82F6;*/
-/*    --accent-hover: #1D4ED8;*/
-/*    --accent-secondary: #A78BFA;*/
-/*    --muted: #9CA3AF;*/
-/*    --attention: #F97316;*/
-/*  }*/
-/*}*/
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
