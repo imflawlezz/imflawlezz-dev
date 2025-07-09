@@ -4,7 +4,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import type { NavLinkProps } from '@/types/navigation';
 
-export const NavLink = ({ item, isActive, onClick }: NavLinkProps) => {
+export const NavLink = ({
+    item,
+    isActive,
+    onClick
+}: NavLinkProps) => {
     const pathname = usePathname();
     const active = isActive ?? pathname === item.href;
 

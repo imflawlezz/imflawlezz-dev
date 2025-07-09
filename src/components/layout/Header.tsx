@@ -11,7 +11,10 @@ import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
 export const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-5 sm:px-10 md:px-12 lg:px-18 py-3 md:py-5 bg-background/90">
+        <header
+            className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-5 sm:px-10 md:px-12
+            lg:px-18 py-3 md:py-5 bg-background/90"
+        >
             <Logo/>
 
             <nav className="hidden md:flex items-center gap-6">
@@ -65,6 +68,18 @@ export const Header = () => {
 
                             </motion.div>
                         ))}
+                        <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: 10 }}
+                            transition={{
+                                duration: 0.3,
+                                delay: 0.8,
+                                ease: "easeOut"
+                            }}
+                        >
+                            <ThemeToggle/>
+                        </motion.div>
                     </motion.div>
                 )}
             </AnimatePresence>
