@@ -1,7 +1,12 @@
-export interface ButtonProps {
+export type ButtonProps = {
     label: string;
     onClick?: () => void;
     linkHref?: string;
     className?: string;
     isPrimary?: boolean;
+}
+
+export type BadgeProps = {
+    label: string;
+    className?: string;
 }
