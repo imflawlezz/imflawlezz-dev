@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const StackOverview = () => {
     return (
-        <section className="py-6 gap-8 md:py-12 md:gap-16 flex flex-col items-center bg-background-variant">
+        <section className="py-6 gap-8 md:py-12 md:gap-16 flex flex-col items-center">
             <SectionHeading heading={'Stack Overview'} />
 
             <div className='flex flex-wrap justify-center md:flex-row gap-8 md:gap-12 px-16 '>

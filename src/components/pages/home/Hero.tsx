@@ -4,7 +4,7 @@ import {Button} from "@/components/ui/Button";
 
 export const Hero = () => {
     return (
-        <section className="w-full h-full flex flex-col md:flex-row bg-background-variant">
+        <section className="w-full h-full flex flex-col md:flex-row">
 
             <Image
                 alt={"Hero image"}

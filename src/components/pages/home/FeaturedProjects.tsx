@@ -11,7 +11,7 @@ export const FeaturedProjects = () => {
     const [activeCardId, setActiveCardId] = useState<number | null>(null);
 
     return (
-        <section className="flex flex-col items-center py-8 gap-8 md:py-12 md:gap-12">
+        <section className="flex flex-col items-center py-8 gap-8 md:py-12 md:gap-12 bg-background-variant">
             <SectionHeading heading={'Featured Projects'}/>
             <div className="w-full flex flex-wrap">
                 {projects.slice(-4).reverse().map((project, idx) => (
