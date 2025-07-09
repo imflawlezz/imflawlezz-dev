@@ -16,3 +16,8 @@ export type LinkComponentProps = {
     href: string;
     className?: string;
 }
+
+export type SectionHeaderProps = {
+    heading: string;
+    className?: string;
+}
