@@ -16,7 +16,7 @@ export const NavLink = ({
         <Link
             href={item.href}
             onClick={onClick}
-            className={`text-base font-medium transition-colors duration-200
+            className={`text-xl md:text-base font-medium transition-colors duration-200
                 ${active ? 'text-accent' : 'text-muted hover:text-accent-hover'}
             `}
         >

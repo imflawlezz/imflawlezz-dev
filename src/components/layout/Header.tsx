@@ -25,7 +25,7 @@ export const Header = () => {
             </nav>
 
             <button
-                className="md:hidden p-2 text-[var(--foreground)]"
+                className="md:hidden p-2 text-foreground"
                 onClick={() => setMenuOpen(true)}
                 aria-label="Open menu"
             >
