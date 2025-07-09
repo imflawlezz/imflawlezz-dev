@@ -10,3 +10,9 @@ export type BadgeProps = {
     label: string;
     className?: string;
 }
+
+export type LinkComponentProps = {
+    label: string;
+    href: string;
+    className?: string;
+}
