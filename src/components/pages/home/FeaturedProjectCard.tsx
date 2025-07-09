@@ -3,13 +3,15 @@
 import type { Project } from '@/types/project';
 import { Badge } from '@/components/ui/Badge';
 import { motion } from 'motion/react';
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowDownRightIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 type FeaturedProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
     className?: string;
+    isActive: boolean;
+    onActivate: (id: number) => void;
 };
 
 export const FeaturedProjectCard = ({
@@ -19,8 +21,9 @@ export const FeaturedProjectCard = ({
                                         imageUrl,
                                         id,
                                         className,
+                                        isActive,
+                                        onActivate,
                                     }: FeaturedProjectCardProps) => {
-    const [isHoveredOrTapped, setIsHoveredOrTapped] = useState(false);
     const [isTouchDevice, setIsTouchDevice] = useState(false);
 
     useEffect(() => {
@@ -28,17 +31,17 @@ export const FeaturedProjectCard = ({
         setIsTouchDevice(isTouch);
     }, []);
 
-    const handleCardClick = () => {
+    const handleClick = () => {
         if (isTouchDevice) {
-            setIsHoveredOrTapped((prev) => !prev);
+            onActivate(id);
         }
     };
 
     return (
         <div
-            onMouseEnter={() => !isTouchDevice && setIsHoveredOrTapped(true)}
-            onMouseLeave={() => !isTouchDevice && setIsHoveredOrTapped(false)}
-            onClick={handleCardClick}
+            onMouseEnter={() => !isTouchDevice && onActivate(id)}
+            onMouseLeave={() => !isTouchDevice && onActivate(-1)}
+            onClick={handleClick}
             className={`relative overflow-hidden h-[280px] md:h-[360px] text-white w-full ${className} cursor-pointer`}
         >
             <Image
@@ -50,14 +53,14 @@ export const FeaturedProjectCard = ({
 
             <motion.div
                 initial={{ opacity: 0 }}
-                animate={isHoveredOrTapped ? { opacity: 0.3 } : { opacity: 0 }}
+                animate={isActive ? { opacity: 0.3 } : { opacity: 0 }}
                 transition={{ duration: 0.3 }}
                 className="absolute inset-0 bg-black z-20 pointer-events-none"
             />
 
             <motion.div
                 initial={{ y: -100, opacity: 0 }}
-                animate={isHoveredOrTapped ? { y: 0, opacity: 1 } : { y: -100, opacity: 0 }}
+                animate={isActive ? { y: 0, opacity: 1 } : { y: -100, opacity: 0 }}
                 transition={{ type: 'spring', stiffness: 300, damping: 24 }}
                 className="absolute top-6 left-6 right-6 z-30"
             >
@@ -73,7 +76,7 @@ export const FeaturedProjectCard = ({
                 <h3 className="text-xl md:text-2xl lg:text-3xl font-medium">{title}</h3>
                 <motion.div
                     initial={{ y: 100, opacity: 0 }}
-                    animate={isHoveredOrTapped ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
+                    animate={isActive ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
                     transition={{ type: 'spring', stiffness: 300, damping: 24 }}
                     whileHover={{ scale: 1.2 }}
                 >
