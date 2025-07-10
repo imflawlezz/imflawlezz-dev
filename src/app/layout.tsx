@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Sora, Zen_Kaku_Gothic_New } from "next/font/google";
 import "./globals.css";
 import {Header} from "@/components/layout/Header";
+import {Footer} from "@/components/layout/Footer";
 
 const sora = Sora({
     variable: "--font-heading",
@@ -26,10 +27,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${sora.variable} ${zenKaku.variable} antialiased mt-17 md:mt-18`}>
-                <Header/>
-                    {children}
-            </body>
+        <body className={`${sora.variable} ${zenKaku.variable} antialiased mt-17 md:mt-18`}>
+            <Header/>
+                {children}
+            <Footer/>
+        </body>
         </html>
     );
 }
