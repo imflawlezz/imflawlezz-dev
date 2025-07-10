@@ -8,7 +8,7 @@ export const Hero = () => {
 
             <Image
                 alt={"Hero image"}
-                src={resolveAsset('sections', 'home-hero.jpg')}
+                src={resolveAsset('hero', 'hero-home.jpg')}
                 width={1920}
                 height={1080}
                 className="w-screen md:w-1/2 h-auto aspect-video md:aspect-auto object-cover"
