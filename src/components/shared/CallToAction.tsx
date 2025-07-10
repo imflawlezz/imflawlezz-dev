@@ -1,7 +1,6 @@
 import {CallToActionProps} from "@/types/ui";
 import Image from "next/image";
 import {Button} from "@/components/ui/Button";
-import {motion} from "motion/react";
 
 export const CallToAction = ({
     heading,
