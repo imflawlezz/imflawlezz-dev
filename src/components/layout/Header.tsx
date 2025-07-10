@@ -7,6 +7,7 @@ import {NavLink} from "@/components/layout/NavLink";
 import {ThemeToggle} from "@/components/ui/ThemeToggle";
 import { motion, AnimatePresence } from "motion/react";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
+import {LanguageSwitcher} from "@/components/ui/LanguageSwitcher";
 
 export const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -77,8 +78,10 @@ export const Header = () => {
                                 delay: 0.8,
                                 ease: "easeOut"
                             }}
+                            className="flex flex-col items-center gap-8"
                         >
                             <ThemeToggle/>
+                            <LanguageSwitcher/>
                         </motion.div>
                     </motion.div>
                 )}
