@@ -21,3 +21,11 @@ export type SectionHeaderProps = {
     heading: string;
     className?: string;
 }
+
+export type CallToActionProps = {
+    heading: string;
+    subheading: string;
+    imageUrl: string;
+    buttons?: ButtonProps[];
+    className?: string;
+}
