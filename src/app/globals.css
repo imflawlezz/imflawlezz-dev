@@ -8,6 +8,7 @@
   --accent: #3B82F6;
   --accent-hover: #2563EB;
   --accent-secondary: #A78BFA;
+  --accent-secondary-hover: #9B7AFD;
   --muted: #6D7581;
   --attention: #F97316;
 
@@ -21,6 +22,7 @@
   --accent: #3B82F6;
   --accent-hover: #1D4ED8;
   --accent-secondary: #A78BFA;
+  --accent-secondary-hover: #8D66FB;
   --muted: #9CA3AF;
   --attention: #F97316;
 }
@@ -32,6 +34,7 @@
   --color-accent: var(--accent);
   --color-accent-hover: var(--accent-hover);
   --color-accent-secondary: var(--accent-secondary);
+  --color-accent-secondary-hover: var(--accent-secondary-hover);
   --color-muted: var(--muted);
   --color-attention: var(--attention);
 
