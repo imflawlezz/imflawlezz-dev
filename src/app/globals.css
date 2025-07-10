@@ -25,6 +25,8 @@
   --accent-secondary-hover: #8D66FB;
   --muted: #9CA3AF;
   --attention: #F97316;
+
+  --icon-filter: invert(1);
 }
 
 @theme inline {
