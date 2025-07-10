@@ -10,7 +10,7 @@ export const CallToAction = ({
     className
 }:CallToActionProps) => {
     return (
-        <section className="relative overflow-hidden p-36">
+        <section className="relative overflow-hidden p-10 sm:p-18 md:p-24 lg:p-28 xl:p-36">
             <Image
                 src={imageUrl}
                 alt={heading}
@@ -36,7 +36,7 @@ export const CallToAction = ({
                     </p>
                 </div>
 
-                <div className="flex flex-row gap-6">
+                <div className="flex flex-row gap-2 md:gap-6">
                     {buttons?.map((button, idx) => (
                         <Button
                             key={idx}
