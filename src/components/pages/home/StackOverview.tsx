@@ -1,15 +1,15 @@
 import {SectionHeading} from "@/components/shared/SectionHeading";
 import {LinkComponent} from "@/components/shared/LinkComponent";
-import {stackOverview} from "@/data/home";
+import {stackOverviewContent} from "@/data/home";
 import Image from "next/image";
 
 export const StackOverview = () => {
     return (
         <section className="py-6 gap-8 md:py-12 md:gap-16 flex flex-col items-center">
-            <SectionHeading heading={'Stack Overview'} />
+            <SectionHeading heading={stackOverviewContent.heading} />
 
             <div className='flex flex-wrap justify-center md:flex-row gap-8 md:gap-12 px-16 '>
-                {stackOverview.map((item, idx) => (
+                {stackOverviewContent.stack.map((item, idx) => (
                     <div key={idx} className="flex flex-col items-center gap-2.5">
                         <Image
                             alt={item.name}
@@ -24,8 +24,8 @@ export const StackOverview = () => {
             </div>
 
             <LinkComponent
-                label={'See complete tech stack'}
-                href="/stack"
+                label={stackOverviewContent.linkContent.label}
+                href={stackOverviewContent.linkContent.href}
             />
         </section>
     )

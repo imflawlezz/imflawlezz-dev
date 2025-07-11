@@ -39,26 +39,32 @@ export const featuredProjectContent = {
     }
 }
 
-
-export const stackOverview = [
-    {
-        name: "Next.js",
-        iconUrl: resolveAsset('icons', 'nextjs.png'),
-    },
-    {
-        name: "Typescript",
-        iconUrl: resolveAsset('icons', 'typescript.png'),
-    },
-    {
-        name: "Tailwind",
-        iconUrl: resolveAsset('icons', 'tailwind.png'),
-    },
-    {
-        name: "JavaScript",
-        iconUrl: resolveAsset('icons', 'javascript.png'),
-    },
-    {
-        name: "React",
-        iconUrl: resolveAsset('icons', 'react.png'),
-    },
-]
+export const stackOverviewContent = {
+    heading: "Stack Overview",
+    stack: [
+        {
+            name: "Next.js",
+            iconUrl: resolveAsset('icons', 'nextjs.png'),
+        },
+        {
+            name: "Typescript",
+            iconUrl: resolveAsset('icons', 'typescript.png'),
+        },
+        {
+            name: "Tailwind",
+            iconUrl: resolveAsset('icons', 'tailwind.png'),
+        },
+        {
+            name: "JavaScript",
+            iconUrl: resolveAsset('icons', 'javascript.png'),
+        },
+        {
+            name: "React",
+            iconUrl: resolveAsset('icons', 'react.png'),
+        },
+    ],
+    linkContent: {
+        label: "See complete tech stack",
+        href: "stack"
+    }
+}
