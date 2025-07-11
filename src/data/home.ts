@@ -68,3 +68,12 @@ export const stackOverviewContent = {
         href: "stack"
     }
 }
+
+export const aboutMeContent = {
+    heading: "About Me",
+    paragraph: [
+        { text: "I'm Egor, a frontend developer and computer science student based in Poland. I enjoy building modern, accessible interfaces using technologies like React, Tailwind, and Next.js."},
+        { text: "Outside of web development, I experiment with embedded systems and mobile apps — combining creativity with electronics to bring ideas to life. I’m passionate about learning, building, and making things that feel meaningful."},
+        { text: "Want to know more?"},
+    ],
+}
