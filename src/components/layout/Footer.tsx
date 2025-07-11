@@ -1,10 +1,9 @@
 import {Logo} from "@/components/ui/Logo";
-import {navItems} from "@/data/navigation";
 import Link from "next/link";
 import {LastUpdated} from "@/components/shared/LastUpdated";
 import {LanguageSwitcher} from "@/components/ui/LanguageSwitcher";
 import {EnvelopeIcon} from "@heroicons/react/24/outline";
-import {footerLinks} from "@/data/footerLinks";
+import {navItems, footerLinks} from "@/data/layout";
 import Image from "next/image";
 
 export const Footer = () => {

@@ -1,6 +1,6 @@
 import {SectionHeading} from "@/components/shared/SectionHeading";
 import {LinkComponent} from "@/components/shared/LinkComponent";
-import {stackOverview} from "@/data/stack";
+import {stackOverview} from "@/data/home";
 import Image from "next/image";
 
 export const StackOverview = () => {

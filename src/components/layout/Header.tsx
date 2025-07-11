@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import {Logo} from "@/components/ui/Logo";
-import {navItems} from "@/data/navigation";
+import {navItems} from "@/data/layout";
 import {NavLink} from "@/components/layout/NavLink";
 import {ThemeToggle} from "@/components/ui/ThemeToggle";
 import { motion, AnimatePresence } from "motion/react";
