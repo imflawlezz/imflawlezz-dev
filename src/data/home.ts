@@ -21,5 +21,5 @@ export const stackOverview = [
         name: "React",
         iconUrl: resolveAsset('icons', 'react.png'),
     },
-
 ]
+
