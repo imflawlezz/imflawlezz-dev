@@ -31,6 +31,14 @@ export const heroContent = {
     ]
 };
 
+export const featuredProjectContent = {
+    heading: "Featured Projects",
+    linkContent: {
+        label: "View all projects",
+        href: "projects"
+    }
+}
+
 
 export const stackOverview = [
     {

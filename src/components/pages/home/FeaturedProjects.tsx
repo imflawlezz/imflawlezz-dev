@@ -4,6 +4,7 @@ import { projects } from '@/data/projects';
 import {LinkComponent} from "@/components/shared/LinkComponent";
 import {SectionHeading} from "@/components/shared/SectionHeading";
 import {useState} from "react";
+import {featuredProjectContent} from "@/data/home";
 
 export const FeaturedProjects = () => {
 
@@ -12,7 +13,7 @@ export const FeaturedProjects = () => {
 
     return (
         <section className="flex flex-col items-center py-8 gap-8 md:py-12 md:gap-12 bg-background-variant">
-            <SectionHeading heading={'Featured Projects'}/>
+            <SectionHeading heading={featuredProjectContent.heading}/>
             <div className="w-full flex flex-wrap">
                 {projects.slice(-4).reverse().map((project, idx) => (
                     <FeaturedProjectCard
@@ -25,8 +26,8 @@ export const FeaturedProjects = () => {
                 ))}
             </div>
             <LinkComponent
-                label={'View all projects'}
-                href={'/projects'}
+                label={featuredProjectContent.linkContent.label}
+                href={featuredProjectContent.linkContent.href}
             />
         </section>
     );
