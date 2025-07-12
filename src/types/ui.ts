@@ -1,4 +1,5 @@
 import {ReactNode} from "react";
+import type {Project} from "@/types/project";
 
 export type ButtonProps = {
     label: string;
@@ -39,10 +40,20 @@ export type CallToActionProps = {
     className?: string;
 }
 
-
 export type ImageSplitSectionProps = {
     imageUrl: string;
     imageAlt?: string;
     reverse?: boolean;
     children: ReactNode;
+};
+
+export type FeaturedProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
+    className?: string;
+    isActive: boolean;
+    onActivate: (id: number) => void;
+};
+
+export type ProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
+    className?: string;
+    reverse: boolean;
 };
