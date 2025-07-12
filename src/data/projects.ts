@@ -18,7 +18,7 @@ export const callToAction = {
         },
         {
             label: "Contact me",
-            linkHref: "contact",
+            linkHref: "/contact",
             className: "border-accent-secondary hover:bg-accent-secondary-hover text-accent-secondary",
         },
     ],

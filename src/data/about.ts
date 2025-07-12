@@ -50,7 +50,7 @@ export const callToAction = {
     buttons: [
         {
             label: "Get in Touch",
-            linkHref: "contact",
+            linkHref: "/contact",
             className: "",
         },
     ],

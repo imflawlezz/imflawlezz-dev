@@ -21,11 +21,11 @@ export const heroContent = {
     buttons: [
         {
             label: "See my work",
-            linkHref: "projects",
+            linkHref: "/projects",
         },
         {
             label: "Get in touch",
-            linkHref: "contact",
+            linkHref: "/contact",
             isPrimary: false
         }
     ]
@@ -35,7 +35,7 @@ export const featuredProjectContent = {
     heading: "Featured Projects",
     linkContent: {
         label: "View all projects",
-        href: "projects"
+        href: "/projects"
     }
 }
 
@@ -65,7 +65,7 @@ export const stackOverviewContent = {
     ],
     linkContent: {
         label: "See complete tech stack",
-        href: "stack"
+        href: "/stack"
     }
 }
 
@@ -85,12 +85,12 @@ export const callToAction = {
     buttons: [
         {
             label: "Get in touch",
-            linkHref: "contact",
+            linkHref: "/contact",
             className: "",
         },
         {
             label: "View full portfolio",
-            linkHref: "projects",
+            linkHref: "/projects",
             className: "",
         },
     ],
