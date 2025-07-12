@@ -42,3 +42,17 @@ export const beyondContent = {
         "I believe that creativity and curiosity go hand in hand — whether it's building a new device or learning a new language."
     ],
 }
+
+export const callToAction = {
+    heading: "Want to connect or collaborate?",
+    subheading: "Let’s talk. I’m always happy to meet curious minds.",
+    imageUrl: resolveAsset("cta", "cta-about.jpg"),
+    buttons: [
+        {
+            label: "Get in Touch",
+            linkHref: "contact",
+            className: "",
+        },
+    ],
+    className: "items-center text-center",
+}

@@ -1,8 +1,9 @@
 import {Hero} from "@/components/shared/Hero";
-import {beyondContent, heroContent, valueContent} from "@/data/about";
+import {beyondContent, callToAction, heroContent, valueContent} from "@/data/about";
 import {Timeline} from "@/components/pages/about/Timeline";
 import {ImageSplitSection} from "@/components/shared/ImageSplitSection";
 import {SectionHeading} from "@/components/ui/SectionHeading";
+import {CallToAction} from "@/components/shared/CallToAction";
 
 export default function About() {
     return (
@@ -34,6 +35,7 @@ export default function About() {
                     ))}
                 </div>
             </ImageSplitSection>
+            <CallToAction {...callToAction}/>
         </>
     );
 }

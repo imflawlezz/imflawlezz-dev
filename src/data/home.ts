@@ -25,7 +25,7 @@ export const heroContent = {
         },
         {
             label: "Get in touch",
-            linkHref: "contacts",
+            linkHref: "contact",
             isPrimary: false
         }
     ]
@@ -76,4 +76,23 @@ export const aboutMeContent = {
         { text: "Outside of web development, I experiment with embedded systems and mobile apps — combining creativity with electronics to bring ideas to life. I’m passionate about learning, building, and making things that feel meaningful."},
         { text: "Want to know more?"},
     ],
+}
+
+export const callToAction = {
+    heading: "Interested in working together?",
+    subheading: "Let's build something great.",
+    imageUrl: resolveAsset("cta", "cta-home.jpg"),
+    buttons: [
+        {
+            label: "Get in touch",
+            linkHref: "contact",
+            className: "",
+        },
+        {
+            label: "View full portfolio",
+            linkHref: "projects",
+            className: "",
+        },
+    ],
+    className: "items-start text-left"
 }
