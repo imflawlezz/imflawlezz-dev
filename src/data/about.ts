@@ -18,6 +18,16 @@ export const journeyContent = {
         { year: '2021', label: 'Discovered Bootstrap' },
         { year: '2023', label: 'Started CS Degree' },
         { year: '2024', label: 'Explored Web Frameworks' },
-        { year: '2025', label: "And that's only the beginning..." },
+        { label: "And that's only the beginning..." },
     ]
+}
+
+export const valueContent = {
+    heading: "What I value",
+    imageUrl: resolveAsset('sections', 'value.jpeg'),
+    paragraph: [
+        "I believe great software is not just functional — it’s thoughtful.",
+        "I care about clean code, accessibility, clear design, and a sense of purpose in every product I build.",
+        "Whether it's a full-stack app or a hardware prototype, I strive to create things that feel good to use."
+    ],
 }
