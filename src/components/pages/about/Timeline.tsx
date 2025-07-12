@@ -33,7 +33,7 @@ export const Timeline = () => {
                         <div className={`
                             relative w-7 h-7 md:w-6 md:h-6 rounded-full flex items-center justify-center 
                             ${idx === journeyContent.milestones.length - 1
-                            ? 'bg-muted animate-pulse'
+                            ? 'bg-foreground animate-pulse'
                             : 'bg-accent-secondary'}
                         `}>
                             <div className="w-5.5 h-5.5 md:w-4.5 md:h-4.5 rounded-full bg-background flex items-center justify-center">
