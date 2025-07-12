@@ -1,5 +1,5 @@
 'use client';
-import { FeaturedProjectCard } from '@/components/shared/FeaturedProjectCard';
+import { FeaturedProjectCard } from '@/components/pages/home/FeaturedProjectCard';
 import { projectsData } from '@/data/projectsData';
 import {LinkComponent} from "@/components/ui/LinkComponent";
 import {SectionHeading} from "@/components/ui/SectionHeading";

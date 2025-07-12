@@ -1,29 +1,25 @@
 'use client';
 
-import type { Project } from '@/types/project';
 import { Badge } from '@/components/ui/Badge';
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import { ArrowDownRightIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import {FeaturedProjectCardProps} from "@/types/ui";
 
-type FeaturedProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
-    className?: string;
-    isActive: boolean;
-    onActivate: (id: number) => void;
-};
+
 
 export const FeaturedProjectCard = ({
-                                        title,
-                                        description,
-                                        technologies,
-                                        imageUrl,
-                                        id,
-                                        className,
-                                        isActive,
-                                        onActivate,
-                                    }: FeaturedProjectCardProps) => {
+    title,
+    description,
+    technologies,
+    imageUrl,
+    id,
+    className,
+    isActive,
+    onActivate,
+}: FeaturedProjectCardProps) => {
     const [isTouchDevice, setIsTouchDevice] = useState(false);
 
     useEffect(() => {
