@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import type { NavLinkProps } from '@/types/navigation';
+import type { NavLinkProps } from '@/types/ui';
 
 export const NavLink = ({
     item,
