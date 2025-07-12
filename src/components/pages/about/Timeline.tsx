@@ -1,6 +1,6 @@
 'use client';
 
-import {SectionHeading} from "@/components/shared/SectionHeading";
+import {SectionHeading} from "@/components/ui/SectionHeading";
 import {journeyContent} from "@/data/about";
 import {motion} from "motion/react";
 import {useScrollDirection} from "@/hooks/useScrollDirection"; // импорт кастомного хука

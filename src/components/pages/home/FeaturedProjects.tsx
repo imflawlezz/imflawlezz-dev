@@ -1,8 +1,8 @@
 'use client';
 import { FeaturedProjectCard } from '@/components/pages/home/FeaturedProjectCard';
 import { projects } from '@/data/projects';
-import {LinkComponent} from "@/components/shared/LinkComponent";
-import {SectionHeading} from "@/components/shared/SectionHeading";
+import {LinkComponent} from "@/components/ui/LinkComponent";
+import {SectionHeading} from "@/components/ui/SectionHeading";
 import {useState} from "react";
 import {featuredProjectContent} from "@/data/home";
 

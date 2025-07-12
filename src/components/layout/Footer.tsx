@@ -1,6 +1,6 @@
 import {Logo} from "@/components/ui/Logo";
 import Link from "next/link";
-import {LastUpdated} from "@/components/shared/LastUpdated";
+import {LastUpdated} from "@/components/ui/LastUpdated";
 import {LanguageSwitcher} from "@/components/ui/LanguageSwitcher";
 import {EnvelopeIcon} from "@heroicons/react/24/outline";
 import {navItems, footerLinks} from "@/data/layout";

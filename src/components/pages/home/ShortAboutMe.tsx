@@ -1,5 +1,5 @@
-import {LinkComponent} from "@/components/shared/LinkComponent";
-import {SectionHeading} from "@/components/shared/SectionHeading";
+import {LinkComponent} from "@/components/ui/LinkComponent";
+import {SectionHeading} from "@/components/ui/SectionHeading";
 import Image from "next/image";
 import {resolveAsset} from "@/utils/resolveAsset";
 import {aboutMeContent} from "@/data/home";
