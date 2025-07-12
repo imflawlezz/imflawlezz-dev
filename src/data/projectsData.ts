@@ -1,6 +1,6 @@
 import {resolveAsset} from "@/utils/resolveAsset";
 
-export const projects = [
+export const projectsData = [
     {
         id: 1,
         title: 'Grovemade',

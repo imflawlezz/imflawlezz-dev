@@ -1,6 +1,6 @@
 'use client';
-import { FeaturedProjectCard } from '@/components/pages/home/FeaturedProjectCard';
-import { projects } from '@/data/projects';
+import { FeaturedProjectCard } from '@/components/shared/FeaturedProjectCard';
+import { projectsData } from '@/data/projectsData';
 import {LinkComponent} from "@/components/ui/LinkComponent";
 import {SectionHeading} from "@/components/ui/SectionHeading";
 import {useState} from "react";
@@ -15,7 +15,7 @@ export const FeaturedProjects = () => {
         <section className="flex flex-col items-center py-8 gap-8 md:py-12 md:gap-12 bg-background-variant">
             <SectionHeading heading={featuredProjectContent.heading}/>
             <div className="w-full flex flex-wrap">
-                {projects.slice(-4).reverse().map((project, idx) => (
+                {projectsData.slice(-4).reverse().map((project, idx) => (
                     <FeaturedProjectCard
                         key={project.id}
                         {...project}
