@@ -28,6 +28,7 @@ export const ImageSplitSection = ({
                     alt={imageAlt}
                     fill
                     className="object-cover"
+                    quality={100}
                 />
             </div>
 
