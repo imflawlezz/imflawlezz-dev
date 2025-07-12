@@ -4,7 +4,7 @@ export const projectsData = [
     {
         id: 1,
         title: 'Grovemade',
-        technologies: ['Next.js', 'Taiwlwind CSS', 'Typescript', 'PET project'],
+        technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Grovemade landing. The Desk Shelf System.",
         fullDescription: "",
         imageUrl: resolveAsset('projects', 'grovemade.jpeg'),
@@ -15,7 +15,7 @@ export const projectsData = [
     {
         id: 2,
         title: 'Dudeshape',
-        technologies: ['Next.js', 'Taiwlwind CSS', 'Typescript', 'PET project'],
+        technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Dudeshape landing. Modern furniture",
         fullDescription: "",
         imageUrl: resolveAsset('projects', 'dudeshape.jpeg'),
@@ -26,7 +26,7 @@ export const projectsData = [
     {
         id: 3,
         title: 'Roby',
-        technologies: ['Next.js', 'Taiwlwind CSS', 'Typescript', 'PET project'],
+        technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Roby landing. A creative agency based in Helsinki.",
         fullDescription: "",
         imageUrl: resolveAsset('projects', 'roby.jpeg'),
@@ -37,7 +37,7 @@ export const projectsData = [
     {
         id: 4,
         title: 'Latte Cafe',
-        technologies: ['Next.js', 'Taiwlwind CSS', 'Typescript', 'PET project'],
+        technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Latte Cafe Landing. Award winning cafe and bar.",
         fullDescription: "",
         imageUrl: resolveAsset('projects', 'latte-cafe.png'),
@@ -48,7 +48,7 @@ export const projectsData = [
     {
         id: 5,
         title: 'Woodendot',
-        technologies: ['Next.js', 'Taiwlwind CSS', 'Typescript', 'PET project'],
+        technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Woodendot landing. Furniture designed to live in harmony, creating distinctive and timeless spaces.",
         fullDescription: "",
         imageUrl: resolveAsset('projects', 'woodendot.jpeg'),
@@ -59,7 +59,7 @@ export const projectsData = [
     {
         id: 6,
         title: 'Wishbone',
-        technologies: ['Next.js', 'Taiwlwind CSS', 'Typescript', 'PET project'],
+        technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Wishbone+Partners landing. The home of beautiful architecture.",
         fullDescription: "",
         imageUrl: resolveAsset('projects', 'wishbone.jpeg'),
@@ -70,7 +70,7 @@ export const projectsData = [
     {
         id: 7,
         title: 'imflawlezz.dev',
-        technologies: ['Next.js', 'Taiwlwind CSS', 'Typescript', 'Redis', 'Vercel Serverless Backend'],
+        technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'Redis', 'Vercel Serverless Backend'],
         description: "Imflawlezz.dev. My portfolio website. You are currently viewing it.",
         fullDescription: "",
         imageUrl: resolveAsset('projects', 'imflawlezz.jpg'),
