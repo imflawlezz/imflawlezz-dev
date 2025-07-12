@@ -6,6 +6,7 @@ export const assetPaths = {
     sections: `${assetRoot}sections`,
     hero: `${assetRoot}sections/hero`,
     cta: `${assetRoot}sections/cta`,
+    stack: `${assetRoot}stack`,
 } as const;
 
 export type AssetCategory = keyof typeof assetPaths;
