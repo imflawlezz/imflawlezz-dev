@@ -13,8 +13,8 @@ export const ImageSplitSection = ({
                                   }: ImageSplitSectionProps) => {
     return (
         <motion.section
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
             viewport={{ once: true, amount: 0.4 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
             className={clsx(
