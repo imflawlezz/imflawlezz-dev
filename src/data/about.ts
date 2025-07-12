@@ -24,10 +24,21 @@ export const journeyContent = {
 
 export const valueContent = {
     heading: "What I value",
+    reverse: false,
     imageUrl: resolveAsset('sections', 'value.jpeg'),
     paragraph: [
         "I believe great software is not just functional — it’s thoughtful.",
         "I care about clean code, accessibility, clear design, and a sense of purpose in every product I build.",
         "Whether it's a full-stack app or a hardware prototype, I strive to create things that feel good to use."
+    ],
+}
+
+export const beyondContent = {
+    heading: "Beyond Code",
+    reverse: true,
+    imageUrl: resolveAsset('sections', 'beyond-code.jpeg'),
+    paragraph: [
+        "Outside of development, I enjoy exploring Japanese culture, tinkering with DIY electronics, and occasionally designing my own devices from scratch.",
+        "I believe that creativity and curiosity go hand in hand — whether it's building a new device or learning a new language."
     ],
 }
