@@ -57,3 +57,12 @@ export type ProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 't
     className?: string;
     reverse: boolean;
 };
+
+export type ContactFormProps = {
+    heading: string;
+    namePlaceholder: string;
+    emailPlaceholder: string;
+    messagePlaceholder: string;
+    buttonPlaceholder: string;
+    className?: string;
+}
