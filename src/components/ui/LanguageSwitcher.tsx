@@ -19,7 +19,7 @@ export const LanguageSwitcher = () => {
                     className={`px-2 py-1 rounded-sm transition font-bold ${
                         currentLang === code
                             ? 'text-background bg-foreground'
-                            : 'hover:text-white hover:bg-accent-secondary'
+                            : 'text-muted hover:text-foreground hover:bg-accent-secondary'
                     }`}
                     onClick={() => setCurrentLang(code as 'en' | 'pl' | 'ru' )}
                 >
