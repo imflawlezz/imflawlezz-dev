@@ -1,3 +1,5 @@
+import {ReactNode} from "react";
+
 export type ButtonProps = {
     label: string;
     onClick?: () => void;
@@ -36,3 +38,11 @@ export type CallToActionProps = {
     buttons?: ButtonProps[];
     className?: string;
 }
+
+
+export type ImageSplitSectionProps = {
+    imageUrl: string;
+    imageAlt?: string;
+    reverse?: boolean;
+    children: ReactNode;
+};
