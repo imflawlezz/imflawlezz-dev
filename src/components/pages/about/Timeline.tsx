@@ -3,10 +3,8 @@
 import {SectionHeading} from "@/components/ui/SectionHeading";
 import {journeyContent} from "@/data/about";
 import {motion} from "motion/react";
-import {useScrollDirection} from "@/hooks/useScrollDirection"; // импорт кастомного хука
 
 export const Timeline = () => {
-    const scrollDirection = useScrollDirection();
 
     return (
         <section className="w-full px-16 md:px-36 py-18 lg:py-24 flex flex-col gap-9 lg:gap-24 items-center justify-center">
@@ -22,14 +20,14 @@ export const Timeline = () => {
                 {journeyContent.milestones.map((item, idx) => (
                     <motion.div
                         key={idx}
-                        initial={{ opacity: 0, y: scrollDirection === 'down' ? 20 : -20 }}
+                        initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{
                             duration: 0.5,
                             ease: 'easeOut',
                             delay: 0.05 * idx
                         }}
-                        viewport={{ once: false, amount: 1 }}
+                        viewport={{ once: true, amount: 1 }}
                         className="relative z-10 flex flex-row md:flex-col items-center gap-10 md:gap-4 md:text-center"
                     >
                         <div className={`
@@ -45,7 +43,13 @@ export const Timeline = () => {
 
                         <div className="max-w-36 text-base flex flex-col items-start md:items-center gap-1">
                             <h2 className="text-foreground text-2xl">{item.year}</h2>
-                            <p className="text-muted text-xl md:text-lg">{item.label}</p>
+                            <p
+                                className={`
+                                ${idx === journeyContent.milestones.length - 1
+                                    ? 'font-heading text-foreground text-xl'
+                                    : 'text-muted text-xl md:text-lg'}
+                                `}
+                            >{item.label}</p>
                         </div>
                     </motion.div>
                 ))}
