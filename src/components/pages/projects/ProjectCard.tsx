@@ -49,7 +49,7 @@ export const ProjectCard = ({
                 </motion.h1>
 
                 <motion.div
-                    initial={{ opacity: 0, y: scrollDirection === 'down' ? 20 : -20 }}
+                    initial={{ opacity: 0, y: scrollDirection === 'down' ? -20 : 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: false, amount: 0.7 }}
                     transition={{ duration: 0.6, ease: 'easeOut' }}
