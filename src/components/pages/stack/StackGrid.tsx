@@ -1,33 +1,39 @@
 import {stackDetails} from "@/data/stack";
 import clsx from "clsx";
 import Image from "next/image";
+import {StepIndicator} from "@/components/pages/stack/StepIndicator";
 
 export const StackGrid = () => {
     return (
-        <div className="">
+        <div className="flex flex-col gap-16 md:gap-20 lg:gap-24 2xl:gap-28">
             {stackDetails.categories.map((category, index) => (
-                // Category
                 <div
                     key={index}
                     className={
-                        clsx('flex flex-col gap-12 lg:gap-24 2xl:gap-32 items-center justify-start',
+                        clsx('w-full flex flex-col gap-12 lg:gap-24 2xl:gap-32 items-start',
                             index % 2 === 0
-                                ? 'flex-row'
-                                : 'flex-row-reverse'
+                                ? 'md:flex-row'
+                                : 'md:flex-row-reverse'
                         )
                     }
                 >
-                    (// Category heading and description)
-                    <div className="flex flex-col gap-4 items-start">
+                    <div className={
+                        clsx(
+                            'w-full flex flex-col gap-4',
+                            index % 2 === 0
+                                ? 'items-end text-right'
+                                : 'items-start text-left'
+                        )
+                    }>
                         <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold">
                             {category.heading}
                         </h1>
-                        <p className="text-xl md:text-2xl 2xl:text-3xl text-muted">
+                        <p className="text-xl md:text-2xl 2xl:text-3xl text-muted max-w-[450px]">
                             {category.description}
                         </p>
                     </div>
-                    (// Stack item)
-                    <div className="flex flex-col gap-2.5 items-start">
+
+                    <div className="flex flex-col gap-2.5 items-start w-full">
                         {category.technologies.map((technology, index) => (
                             <div
                                 key={index}
@@ -39,14 +45,18 @@ export const StackGrid = () => {
                                     width={48}
                                     height={48}
                                     className={``}
+                                    style={{ filter: 'var(--icon-filter)' }}
                                 />
 
                                 <div className="flex flex-col gap-2.5">
-                                    <div className="flex flex-row items-start justify-center gap-6">
-
+                                    <div className="flex flex-row items-center justify-start gap-6">
+                                        <p className="text-xl lg:text-2xl ">{technology.name}</p>
+                                        <StepIndicator value={technology.proficiency}/>
                                     </div>
 
-                                    <p className="text-base lg:text-lg 2xl:text-xl text-muted"></p>
+                                    <p className="text-sm lg:text-base text-muted max-w-[450px]">
+                                        {technology.description}
+                                    </p>
                                 </div>
 
                             </div>
