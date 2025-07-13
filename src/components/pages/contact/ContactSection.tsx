@@ -19,7 +19,9 @@ export const ContactSection = () => {
                         <Link
                             key={index}
                             href={item.href}
-                            className="flex flex-row items-center justify-start gap-2.5"
+                            className="flex flex-row items-center justify-start gap-4
+                            underline decoration-1 decoration-accent underline-offset-4
+                            hover:translate-x-3 transition duration-300"
                         >
                             <Image
                                 alt={item.name}
