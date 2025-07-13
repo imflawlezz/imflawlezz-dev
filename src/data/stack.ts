@@ -1,5 +1,5 @@
 import {resolveAsset} from "@/utils/resolveAsset";
-import {Stack} from "@/types/stack";
+import {Stack, Tool} from "@/types/stack";
 
 export const heroContent = {
     heading: "Tech Stack",
@@ -110,6 +110,59 @@ export const stackDetails: Stack = {
                     iconUrl: resolveAsset('stack', 'android.png'),
                 }
             ]
+        }
+    ]
+}
+
+export const toolsContent: {
+    heading: string,
+    subheading: string,
+    tools: Tool[]
+} = {
+    heading: "Tools I Use",
+    subheading: "My day-to-day tools for development, version control, and deployment.",
+    tools: [
+        {
+            name: "WebStorm",
+            iconUrl: resolveAsset('tools', 'webstorm.png'),
+            description: "IDE",
+            href: "https://www.jetbrains.com/webstorm"
+        },
+        {
+            name: "Zed",
+            iconUrl: resolveAsset('tools', 'zed.png'),
+            description: "Text editor",
+            href: "https://zed.dev"
+        },
+        {
+            name: "Arc",
+            iconUrl: resolveAsset('tools', 'arc.png'),
+            description: "Web-browser",
+            href: "https://arc.net/"
+        },
+        {
+            name: "Warp",
+            iconUrl: resolveAsset('tools', 'warp.png'),
+            description: "Terminal",
+            href: "https://www.warp.dev/"
+        },
+        {
+            name: "GitHub",
+            iconUrl: resolveAsset('tools', 'github.png'),
+            description: "Version control",
+            href: "https://github.com/"
+        },
+        {
+            name: "Vercel",
+            iconUrl: resolveAsset('tools', 'vercel.png'),
+            description: "Deployment",
+            href: "https://vercel.com/"
+        },
+        {
+            name: "Docker",
+            iconUrl: resolveAsset('tools', 'docker.png'),
+            description: "Containers",
+            href: "https://www.docker.com/"
         }
     ]
 }
