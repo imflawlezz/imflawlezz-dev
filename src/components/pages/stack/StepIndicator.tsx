@@ -1,47 +1,56 @@
+'use client';
 import React from 'react';
 import {StepIndicatorProps} from "@/types/ui";
+import {motion} from "motion/react"
 
 export const StepIndicator = ({
-    value = 0,
-    maxSteps = 5,
-    className = "",
-    barWidth = 4,
-    barHeight = 2,
-    spacing = 2,
-    filledColor = "bg-accent",
-    emptyColor = "bg-muted"
-}:StepIndicatorProps) => {
+                                  value = 0,
+                                  maxSteps = 5,
+                                  className = '',
+                                  barWidth = 4,
+                                  barHeight = 2,
+                                  spacing = 2,
+                                  filledColor = 'bg-accent',
+                                  emptyColor = 'bg-muted',
+                              }: StepIndicatorProps) => {
     const clampedValue = Math.max(0, Math.min(maxSteps, value));
-
     const fullBars = Math.floor(clampedValue);
     const hasHalfBar = clampedValue % 1 >= 0.5;
     const gap = `gap-${spacing}`;
+    const dimensions = `w-${barWidth} h-${barHeight}`;
 
     const renderBar = (index: number) => {
         const isFullyFilled = index < fullBars;
         const isHalfFilled = index === fullBars && hasHalfBar;
-        const dimensions = `w-${barWidth} h-${barHeight}`;
 
+        const baseProps = {
+            initial: { opacity: 0},
+            whileInView: { opacity: 1},
+            viewport: { once: false, amount: 1 },
+            transition: { duration: 0.7, delay: 0.05 * index},
+        };
 
         if (isHalfFilled) {
             return (
-                <div
+                <motion.div
                     key={index}
-                    className={`${dimensions} ${emptyColor} rounded-xs transition-all duration-200 relative overflow-hidden`}
+                    {...baseProps}
+                    className={`${dimensions} ${emptyColor} rounded-xs relative overflow-hidden`}
                 >
                     <div
-                        className={`absolute top-0 left-0 h-full w-1/2 ${filledColor} transition-all duration-200`}
+                        className={`absolute top-0 left-0 h-full w-1/2 ${filledColor}`}
                     />
-                </div>
+                </motion.div>
             );
         }
 
         const barColorClass = isFullyFilled ? filledColor : emptyColor;
 
         return (
-            <div
+            <motion.div
                 key={index}
-                className={`${dimensions} ${barColorClass} rounded-xs transition-colors duration-200`}
+                {...baseProps}
+                className={`${dimensions} ${barColorClass} rounded-xs`}
             />
         );
     };
