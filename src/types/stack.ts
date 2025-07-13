@@ -14,3 +14,10 @@ export type Technology = {
     proficiency: number;
     iconUrl: string;
 }
+
+export type Tool = {
+    name: string;
+    iconUrl: string;
+    description: string;
+    href: string;
+}
