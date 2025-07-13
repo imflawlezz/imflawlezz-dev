@@ -1,44 +1,53 @@
 import React from 'react';
+import {StepIndicatorProps} from "@/types/ui";
 
 export const StepIndicator = ({
-                           value = 0,
-                           maxSteps = 5,
-                           className = "",
-                       }) => {
+    value = 0,
+    maxSteps = 5,
+    className = "",
+    barWidth = 4,
+    barHeight = 2,
+    spacing = 2,
+    filledColor = "bg-accent",
+    emptyColor = "bg-muted"
+}:StepIndicatorProps) => {
     const clampedValue = Math.max(0, Math.min(maxSteps, value));
 
     const fullBars = Math.floor(clampedValue);
     const hasHalfBar = clampedValue % 1 >= 0.5;
+    const gap = `gap-${spacing}`;
 
     const renderBar = (index: number) => {
         const isFullyFilled = index < fullBars;
         const isHalfFilled = index === fullBars && hasHalfBar;
+        const dimensions = `w-${barWidth} h-${barHeight}`;
+
 
         if (isHalfFilled) {
             return (
                 <div
                     key={index}
-                    className={`w-4 h-2 bg-muted rounded-xs transition-all duration-200 relative overflow-hidden`}
+                    className={`${dimensions} ${emptyColor} rounded-xs transition-all duration-200 relative overflow-hidden`}
                 >
                     <div
-                        className={`absolute top-0 left-0 h-full w-1/2 bg-accent transition-all duration-200`}
+                        className={`absolute top-0 left-0 h-full w-1/2 ${filledColor} transition-all duration-200`}
                     />
                 </div>
             );
         }
 
-        const barColorClass = isFullyFilled ? 'bg-accent' : 'bg-muted';
+        const barColorClass = isFullyFilled ? filledColor : emptyColor;
 
         return (
             <div
                 key={index}
-                className={`w-4 h-2 ${barColorClass} rounded-xs transition-colors duration-200`}
+                className={`${dimensions} ${barColorClass} rounded-xs transition-colors duration-200`}
             />
         );
     };
 
     return (
-        <div className={`inline-flex items-center gap-2 ${className}`}>
+        <div className={`inline-flex items-center ${gap} ${className}`}>
             {Array.from({ length: maxSteps }, (_, index) => renderBar(index))}
         </div>
     );
