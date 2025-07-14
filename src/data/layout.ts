@@ -9,7 +9,6 @@ export const navItems: NavItem[] = [
     { label: 'Contact', href: '/contact' },
 ];
 
-
 export const footerLinks = [
     {
         label: "Telegram",
@@ -26,4 +25,10 @@ export const footerLinks = [
         linkHref: "#",
         icon: resolveAsset('icons', 'linkedin.svg')
     },
-]
+];
+
+export const projectPageNavContent = {
+    home: 'Home',
+    next: 'Next',
+    prev: 'Previous',
+}
