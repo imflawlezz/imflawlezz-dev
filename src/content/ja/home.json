@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "heading": [
+      { "text": "Hi, I'm エゴール —", "br": true },
+      { "text": "a ", "br": false },
+      { "text": "frontend developer", "className": "text-accent" },
+      { "text": ",", "br": true },
+      { "text": "student", "className": "text-accent-secondary" },
+      { "text": ",", "br": true },
+      { "text": "tech tinkerer", "className": "text-attention", "prefix": "and " },
+      { "text": "." }
+    ],
+    "paragraph": [
+      "I build modern, responsive websites and explore the world of full-stack development.",
+      "When I’m not coding interfaces, I prototype mobile apps and create DIY smart devices powered by microcontrollers.",
+      "Always learning, always building."
+    ],
+    "buttons": [
+      {
+        "label": "See my work",
+        "linkHref": "/projects",
+        "isPrimary": true
+      },
+      {
+        "label": "Get in touch",
+        "linkHref": "/contact",
+        "isPrimary": false
+      }
+    ]
+  },
+
+  "featuredProject": {
+    "heading": "Featured Projects",
+    "linkContent": {
+      "label": "View all projects",
+      "href": "/projects"
+    }
+  },
+
+  "stackOverview": {
+    "heading": "Stack Overview",
+    "stack": [
+      { "name": "Next.js", "icon": "nextjs.png" },
+      { "name": "Typescript", "icon": "typescript.png" },
+      { "name": "Tailwind", "icon": "tailwind.png" },
+      { "name": "JavaScript", "icon": "javascript.png" },
+      { "name": "React", "icon": "react.png" }
+    ],
+    "linkContent": {
+      "label": "See complete tech stack",
+      "href": "/stack"
+    }
+  },
+
+  "aboutMe": {
+    "heading": "About Me",
+    "paragraph": [
+      "I'm Egor, a frontend developer and computer science student based in Poland. I enjoy building modern, accessible interfaces using technologies like React, Tailwind, and Next.js.",
+      "Outside of web development, I experiment with embedded systems and mobile apps — combining creativity with electronics to bring ideas to life. I’m passionate about learning, building, and making things that feel meaningful.",
+      "Want to know more?"
+    ]
+  },
+
+  "callToAction": {
+    "heading": "Interested in working together?",
+    "subheading": "Let's build something great.",
+    "image": "cta-home.jpg",
+    "buttons": [
+      {
+        "label": "Get in touch",
+        "linkHref": "/contact",
+        "className": ""
+      },
+      {
+        "label": "View full portfolio",
+        "linkHref": "/projects",
+        "className": ""
+      }
+    ],
+    "className": "items-start text-left"
+  }
+}
