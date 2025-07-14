@@ -96,3 +96,8 @@ export interface ProjectHeroProps {
     heading: string;
     imageUrl: string;
 }
+
+export interface ImageSliderProps {
+    images: string[];
+    alt?: string;
+}
