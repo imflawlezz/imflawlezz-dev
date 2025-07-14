@@ -6,6 +6,8 @@ export type Project = {
     technologies: string[];
     githubUrl?: string;
     liveUrl?: string;
-    fullDescription?: string;
+    fullDescription?: string[];
+    devComment?: string;
     features?: string[];
+    screenshots?: string[];
 };
