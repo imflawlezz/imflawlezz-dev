@@ -1,0 +1,40 @@
+{
+  "navItems": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Me", "href": "/about" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Stack", "href": "/stack" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+
+  "footerLinks": [
+    {
+      "label": "Telegram",
+      "linkHref": "https://t.me/imflawlezz",
+      "icon": "telegram.svg"
+    },
+    {
+      "label": "GitHub",
+      "linkHref": "https://github.com/imflawlezz",
+      "icon": "github.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "linkHref": "https://linkedin.com/in/imflawlezz13",
+      "icon": "linkedin.svg"
+    }
+  ],
+
+  "footer": {
+    "sitemapTitle": "Sitemap",
+    "infoTitle": "Info",
+    "infoQuote": "Design with care. Build with purpose.",
+    "locationNote": "Based in Poland 🇵🇱, open to remote work",
+    "downloadCv": "Download CV",
+    "contactTitle": "Get in touch",
+    "email": "imflawlezz13@gmail.com",
+    "madeWith": "Made with ❤️ &",
+    "madeWithTech": "Next.js",
+    "copyright": "© 2025 Yahor Artsiomchyk. All rights reserved."
+  }
+}

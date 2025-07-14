@@ -1,0 +1,40 @@
+{
+  "navItems": [
+    { "label": "Strona główna", "href": "/" },
+    { "label": "O mnie", "href": "/about" },
+    { "label": "Projekty", "href": "/projects" },
+    { "label": "Technologie", "href": "/stack" },
+    { "label": "Kontakt", "href": "/contact" }
+  ],
+
+  "footerLinks": [
+    {
+      "label": "Telegram",
+      "linkHref": "https://t.me/imflawlezz",
+      "icon": "telegram.svg"
+    },
+    {
+      "label": "GitHub",
+      "linkHref": "https://github.com/imflawlezz",
+      "icon": "github.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "linkHref": "https://linkedin.com/in/imflawlezz13",
+      "icon": "linkedin.svg"
+    }
+  ],
+
+  "footer": {
+    "sitemapTitle": "Mapa strony",
+    "infoTitle": "Informacje",
+    "infoQuote": "Projektuj z troską. Buduj z celem.",
+    "locationNote": "Miejsce pracy: Polska 🇵🇱, otwarty na pracę zdalną",
+    "downloadCv": "Pobierz CV",
+    "contactTitle": "Skontaktuj się",
+    "email": "imflawlezz13@gmail.com",
+    "madeWith": "Stworzone z ❤️ i",
+    "madeWithTech": "Next.js",
+    "copyright": "© 2025 Yahor Artsiomchyk. Wszelkie prawa zastrzeżone."
+  }
+}
