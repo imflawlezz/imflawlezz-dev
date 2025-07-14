@@ -1,12 +1,5 @@
 import {ReactNode} from "react";
 import type {Project} from "@/types/project";
-import {NavItem} from "@/types/navigation";
-
-export type NavLinkProps = {
-    item: NavItem;
-    isActive?: boolean;
-    onClick?: () => void;
-};
 
 export type ButtonProps = {
     label: string;
