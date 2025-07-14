@@ -24,3 +24,14 @@ export const callToAction = {
     ],
     className: "items-end text-right",
 }
+
+export const projectInfo = {
+    allProjectsLabel: "All Projects",
+    tagsLabel: "Tags",
+    descriptionLabel: "Description",
+    featuresLabel: "Features",
+    screenshotsLabel: "Screenshots",
+    commentLabel: "Dev Note",
+    viewLiveLabel: "View Live",
+    viewSourceLabel: "View Source",
+}
