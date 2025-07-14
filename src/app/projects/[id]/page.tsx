@@ -3,12 +3,6 @@ import { projectsData } from '@/data/projectsData';
 import { ProjectHero } from '@/components/pages/projects/ProjectHero';
 import { Badge } from "@/components/ui/Badge";
 
-export async function generateStaticParams() {
-    return projectsData.map((p) => ({
-        id: p.id.toString()
-    }));
-}
-
 interface ProjectPageProps {
     params: { id: string };
 }
