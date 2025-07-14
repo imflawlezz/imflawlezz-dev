@@ -8,6 +8,7 @@ export const assetPaths = {
     cta: `${assetRoot}sections/cta`,
     stack: `${assetRoot}stack`,
     tools: `${assetRoot}tools`,
+    screenshots: `${assetRoot}screenshots`,
 } as const;
 
 export type AssetCategory = keyof typeof assetPaths;
