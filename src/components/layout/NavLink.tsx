@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import {useParams, usePathname} from 'next/navigation';
-import type { NavLinkProps } from '@/types/ui';
+import type { NavLinkProps } from '@/types/layout';
 import {localizedPath} from "@/utils/localizedPath";
 
 export const NavLink = ({
