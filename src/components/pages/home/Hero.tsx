@@ -3,8 +3,6 @@ import Image from "next/image";
 import {resolveAsset} from "@/utils/resolveAsset";
 import {Button} from "@/components/ui/Button";
 import {HeroProps} from "@/types/home";
-import {useParams} from "next/navigation";
-import {localizedPath} from "@/utils/localizedPath";
 
 export const Hero = ({
     heading,
