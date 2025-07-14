@@ -11,7 +11,7 @@ export type NavLinkProps = {
 export type ButtonProps = {
     label: string;
     onClick?: () => void;
-    linkHref?: string;
+    linkHref: string;
     className?: string;
     isPrimary?: boolean;
 }
@@ -42,7 +42,7 @@ export type SectionHeaderProps = {
 export type CallToActionProps = {
     heading: string;
     subheading: string;
-    imageUrl: string;
+    image: string;
     buttons?: ButtonProps[];
     className?: string;
 }
