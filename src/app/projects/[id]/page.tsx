@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/Badge';
 import { PageNav } from '@/components/shared/PageNav';
 import { CodeBracketIcon, RocketLaunchIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
+import {ImageSlider} from "@/components/shared/ImageSlider";
 
 export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
@@ -59,10 +60,17 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                         </div>
                     )}
 
+                    {project.screenshots && (
+                        <div className="text-lg flex flex-col gap-2">
+                            <p className="text-lg font-semibold">Screenshots:</p>
+                            <ImageSlider images={project.screenshots}/>
+                        </div>
+                    )}
+
                     {project.devComment && (
                         <div className="text-lg">
                             <p className="font-semibold">Dev notes:</p>
-                            <p className="italic">"{project.devComment}"</p>
+                            <p className="italic">&#34;{project.devComment}&#34;</p>
                         </div>
                     )}
 
