@@ -1,15 +1,20 @@
-'use client';
-
 import Image from 'next/image';
+import {ProjectHeroProps} from "@/types/ui";
 
-interface ProjectHeroProps {
-    heading: string;
-    imageUrl: string;
-}
 
-export const ProjectHero = ({ heading, imageUrl }: ProjectHeroProps) => {
+
+export const ProjectHero = ({
+    heading,
+    imageUrl
+}: ProjectHeroProps) => {
     return (
-        <section className="relative px-36 py-48 flex flex-col items-start justify-center">
+        <section className="relative flex flex-col items-start justify-center
+
+        pt-24 pb-6 px-10
+        sm:pt-36 sm:pb-8 sm:x-16
+        md:pt-48 md:pb-10 md:px-24
+        lg:pt-56 lg:pb-12 lg:px-36
+        ">
             <Image
                 alt={heading}
                 src={imageUrl}
