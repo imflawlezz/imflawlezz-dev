@@ -1,5 +1,8 @@
+'use client';
 import {ButtonProps} from "@/types/ui";
 import Link from "next/link";
+import {localizedPath} from "@/utils/localizedPath";
+import {useParams} from "next/navigation";
 
 export const Button = ({
     label,
@@ -8,9 +11,10 @@ export const Button = ({
     className,
     isPrimary = true
 }:ButtonProps) => {
+    const locale = useParams()?.locale || 'en';
     return (
         <Link
-            href={linkHref ? `${linkHref}` : `#`}
+            href={linkHref ? localizedPath(locale, linkHref) : `/#`}
             onClick={onClick}
             className={`${className} p-3 md:px-6 md:py-3 text-base text-center rounded-xl transition duration-300 ease-in-out
                 ${isPrimary ? 'text-white bg-accent hover:bg-accent-hover' : 

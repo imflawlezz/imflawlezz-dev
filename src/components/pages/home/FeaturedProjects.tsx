@@ -4,16 +4,19 @@ import { projectsData } from '@/data/projectsData';
 import {LinkComponent} from "@/components/ui/LinkComponent";
 import {SectionHeading} from "@/components/ui/SectionHeading";
 import {useState} from "react";
-import {featuredProjectContent} from "@/data/home";
+import {FeaturedProjectsProps} from "@/types/home";
 
-export const FeaturedProjects = () => {
+export const FeaturedProjects = ({
+    heading,
+    linkContent
+}:FeaturedProjectsProps) => {
 
     const widthPattern = ['md:w-2/5', 'md:w-3/5', 'md:w-3/5', 'md:w-2/5'];
     const [activeCardId, setActiveCardId] = useState<number | null>(null);
 
     return (
         <section className="flex flex-col items-center py-8 gap-8 md:py-12 md:gap-12 bg-background-variant">
-            <SectionHeading heading={featuredProjectContent.heading}/>
+            <SectionHeading heading={heading}/>
             <div className="w-full flex flex-wrap">
                 {projectsData.slice(-4).reverse().map((project, idx) => (
                     <FeaturedProjectCard
@@ -26,8 +29,8 @@ export const FeaturedProjects = () => {
                 ))}
             </div>
             <LinkComponent
-                label={featuredProjectContent.linkContent.label}
-                href={featuredProjectContent.linkContent.href}
+                label={linkContent.label}
+                href={linkContent.href}
             />
         </section>
     );

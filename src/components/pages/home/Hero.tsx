@@ -1,9 +1,17 @@
+'use client';
 import Image from "next/image";
 import {resolveAsset} from "@/utils/resolveAsset";
 import {Button} from "@/components/ui/Button";
-import {heroContent} from "@/data/home";
+import {HeroProps} from "@/types/home";
+import {useParams} from "next/navigation";
+import {localizedPath} from "@/utils/localizedPath";
 
-export const Hero = () => {
+export const Hero = ({
+    heading,
+    paragraph,
+    buttons
+}:HeroProps) => {
+
     return (
         <section className="w-full h-full flex flex-col md:flex-row">
 
@@ -18,7 +26,7 @@ export const Hero = () => {
             <div className="w-full md:w-1/2 px-9 py-8 md:px-18 md:py-16">
                 <div className="flex flex-col gap-8">
                     <h1 className="font-bold text-3xl sm:text-3xl md:text-4xl lg:text-5xl">
-                        {heroContent.heading.map(({ text, className, br, prefix }, idx) => (
+                        {heading.map(({ text, className, br, prefix }, idx) => (
                             <span key={idx} className={className ?? ''}>
                                 {prefix ?? ''}
                                 {text}
@@ -28,17 +36,17 @@ export const Hero = () => {
                     </h1>
 
                     <p className="text-base md:text-lg lg:text-xl text-muted">
-                        {heroContent.paragraph.map((item, idx) => (
+                        {paragraph.map((item, idx) => (
                             <span
                             key={idx}>
-                                {item.text}
-                                {idx !== heroContent.paragraph.length && <br/>}
+                                {item}
+                                {idx !== paragraph.length && <br/>}
                             </span>
                         ))}
                     </p>
 
                     <div className="flex flex-row gap-4">
-                        {heroContent.buttons.map((item, idx) => (
+                        {buttons.map((item, idx) => (
                             <Button
                                 key={idx}
                                 label={item.label}

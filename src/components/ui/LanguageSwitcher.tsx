@@ -1,15 +1,25 @@
 'use client';
 
-import { useState } from 'react';
+import { usePathname, useRouter, useParams } from 'next/navigation';
+import { locales } from '@/lib/i18n/config';
 
 export const LanguageSwitcher = () => {
-    const [currentLang, setCurrentLang] = useState<'en' | 'pl' | 'ru'>('en');
+    const pathname = usePathname();
+    const router = useRouter();
+    const params = useParams();
+    const currentLang = params.locale as string;
 
-    const languages = [
-        { code: 'en', label: 'EN' },
-        { code: 'pl', label: 'PL' },
-        { code: 'ru', label: 'RU' },
-    ];
+    const languages = locales.map((code) => ({
+        code,
+        label: code.toUpperCase(),
+    }));
+
+    const handleLanguageChange = (lang: string) => {
+        const segments = pathname.split('/');
+        segments[1] = lang;
+        const newPath = segments.join('/');
+        router.push(newPath);
+    };
 
     return (
         <div className="flex items-center gap-3 text-base">
@@ -21,7 +31,7 @@ export const LanguageSwitcher = () => {
                             ? 'text-background bg-foreground'
                             : 'text-muted hover:text-foreground hover:bg-accent-secondary'
                     }`}
-                    onClick={() => setCurrentLang(code as 'en' | 'pl' | 'ru' )}
+                    onClick={() => handleLanguageChange(code)}
                 >
                     {label}
                 </button>

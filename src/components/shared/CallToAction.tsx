@@ -1,18 +1,19 @@
 import {CallToActionProps} from "@/types/ui";
 import Image from "next/image";
 import {Button} from "@/components/ui/Button";
+import {resolveAsset} from "@/utils/resolveAsset";
 
 export const CallToAction = ({
     heading,
     subheading,
-    imageUrl,
+    image,
     buttons,
     className
 }:CallToActionProps) => {
     return (
         <section className="relative overflow-hidden p-10 sm:p-18 md:p-24 lg:p-28 xl:p-36">
             <Image
-                src={imageUrl}
+                src={resolveAsset('cta', image)}
                 alt={heading}
                 fill
                 className="z-10 object-cover object-center transition-transform duration-500"
