@@ -91,3 +91,8 @@ export interface PageNavProps {
     nextLink?: { href: string; label?: string };
     className?: string;
 }
+
+export interface ProjectHeroProps {
+    heading: string;
+    imageUrl: string;
+}
