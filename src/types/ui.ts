@@ -84,3 +84,10 @@ export type StepIndicatorProps = {
     filledColor?: string;
     emptyColor?: string;
 }
+
+export interface PageNavProps {
+    mainLink: { href: string; label: string };
+    prevLink?: { href: string; label?: string };
+    nextLink?: { href: string; label?: string };
+    className?: string;
+}
