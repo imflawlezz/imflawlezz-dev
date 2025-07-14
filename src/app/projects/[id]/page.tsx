@@ -3,11 +3,13 @@ import { projectsData } from '@/data/projectsData';
 import { ProjectHero } from '@/components/pages/projects/ProjectHero';
 import { Badge } from "@/components/ui/Badge";
 
-interface ProjectPageProps {
-    params: { id: string };
+export async function generateStaticParams() {
+    return projectsData.map((p) => ({
+        id: p.id.toString()
+    }));
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
+export default async function ProjectPage({ params }: { params: { id: string } }) {
     const projectId = parseInt(params.id);
     const project = projectsData.find(p => p.id === projectId);
 
@@ -26,9 +28,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                                 <Badge key={idx} label={tech} className="bg-accent" />
                             ))}
                         </div>
-
                     </div>
-
 
                     <div className="text-lg text-muted">
                         <p>{project.fullDescription || project.description}</p>
@@ -56,7 +56,6 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                         </a>
                     )}
                 </div>
-
             </section>
         </main>
     );
