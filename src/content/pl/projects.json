@@ -1,0 +1,25 @@
+{
+  "heroContent": {
+    "heading": "Moje projekty",
+    "subheading": "Zbiór rzeczy, które stworzyłem — od aplikacji full-stack po urządzenia DIY. Niektóre to projekty z pasji, inne to eksperymenty naukowe, ale każdy z nich czegoś mnie nauczył.",
+    "image": "hero-projects.jpg"
+  },
+  "callToAction": {
+    "heading": "Chcesz dowiedzieć się, jak to zrobiłem?",
+    "subheading": "Porozmawiajmy — albo zajrzyj na mój GitHub.",
+    "image": "cta-projects.jpg",
+    "buttons": [
+      {
+        "label": "Zobacz GitHub",
+        "linkHref": "https://github.com/imflawlezz",
+        "className": "bg-accent-secondary hover:bg-accent-secondary-hover"
+      },
+      {
+        "label": "Skontaktuj się ze mną",
+        "linkHref": "/contact",
+        "className": "border-accent-secondary hover:bg-accent-secondary-hover text-accent-secondary"
+      }
+    ],
+    "className": "items-end text-right"
+  }
+}

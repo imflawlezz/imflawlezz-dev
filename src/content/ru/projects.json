@@ -1,0 +1,25 @@
+{
+  "heroContent": {
+    "heading": "Мои проекты",
+    "subheading": "Коллекция всего, что я создал — от полноценных веб-приложений до самодельных устройств. Некоторые — проекты по страсти, другие — эксперименты ради обучения, но каждый из них чему-то меня научил.",
+    "image": "hero-projects.jpg"
+  },
+  "callToAction": {
+    "heading": "Хочешь узнать, как я это создавал?",
+    "subheading": "Давай пообщаемся — или загляни на мой GitHub.",
+    "image": "cta-projects.jpg",
+    "buttons": [
+      {
+        "label": "Посмотреть GitHub",
+        "linkHref": "https://github.com/imflawlezz",
+        "className": "bg-accent-secondary hover:bg-accent-secondary-hover"
+      },
+      {
+        "label": "Связаться со мной",
+        "linkHref": "/contact",
+        "className": "border-accent-secondary hover:bg-accent-secondary-hover text-accent-secondary"
+      }
+    ],
+    "className": "items-end text-right"
+  }
+}

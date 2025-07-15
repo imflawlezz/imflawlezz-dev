@@ -1,0 +1,25 @@
+{
+  "heroContent": {
+    "heading": "私のプロジェクト",
+    "subheading": "私が作ってきたもののコレクションです。フルスタックアプリから自作ハードウェアまで。情熱から生まれたものや、学習のための実験など、すべてが新しい学びをもたらしてくれました。",
+    "image": "hero-projects.jpg"
+  },
+  "callToAction": {
+    "heading": "これらをどうやって作ったか気になりますか？",
+    "subheading": "ぜひお話ししましょう。またはGitHubもチェックしてみてください。",
+    "image": "cta-projects.jpg",
+    "buttons": [
+      {
+        "label": "GitHubを見る",
+        "linkHref": "https://github.com/imflawlezz",
+        "className": "bg-accent-secondary hover:bg-accent-secondary-hover"
+      },
+      {
+        "label": "お問い合わせ",
+        "linkHref": "/contact",
+        "className": "border-accent-secondary hover:bg-accent-secondary-hover text-accent-secondary"
+      }
+    ],
+    "className": "items-end text-right"
+  }
+}
