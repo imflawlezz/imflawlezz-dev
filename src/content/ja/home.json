@@ -1,28 +1,28 @@
 {
   "hero": {
     "heading": [
-      { "text": "Hi, I'm エゴール —", "br": true },
-      { "text": "a ", "br": false },
-      { "text": "frontend developer", "className": "text-accent" },
-      { "text": ",", "br": true },
-      { "text": "student", "className": "text-accent-secondary" },
-      { "text": ",", "br": true },
-      { "text": "tech tinkerer", "className": "text-attention", "prefix": "and " },
-      { "text": "." }
+      { "text": "こんにちは、私はエゴールです。", "br": true },
+      { "text": "", "br": false },
+      { "text": "フロントエンド開発者", "className": "text-accent" },
+      { "text": "、", "br": true },
+      { "text": "学生", "className": "text-accent-secondary" },
+      { "text": "、", "br": true },
+      { "text": "テックエンスージアスト", "className": "text-attention", "prefix": "そして" },
+      { "text": "。" }
     ],
     "paragraph": [
-      "I build modern, responsive websites and explore the world of full-stack development.",
-      "When I’m not coding interfaces, I prototype mobile apps and create DIY smart devices powered by microcontrollers.",
-      "Always learning, always building."
+      "モダンでレスポンシブなウェブサイトを構築し、フルスタック開発の世界を探求しています。",
+      "インターフェースのコーディングをしていない時は、モバイルアプリのプロトタイプ作成やマイクロコントローラーを使ったDIYスマートデバイスの開発をしています。",
+      "常に学び、常に構築しています。"
     ],
     "buttons": [
       {
-        "label": "See my work",
+        "label": "作品を見る",
         "linkHref": "/projects",
         "isPrimary": true
       },
       {
-        "label": "Get in touch",
+        "label": "連絡する",
         "linkHref": "/contact",
         "isPrimary": false
       }
@@ -30,15 +30,15 @@
   },
 
   "featuredProject": {
-    "heading": "Featured Projects",
+    "heading": "注目のプロジェクト",
     "linkContent": {
-      "label": "View all projects",
+      "label": "全てのプロジェクトを見る",
       "href": "/projects"
     }
   },
 
   "stackOverview": {
-    "heading": "Stack Overview",
+    "heading": "技術スタック概要",
     "stack": [
       { "name": "Next.js", "icon": "nextjs.png" },
       { "name": "Typescript", "icon": "typescript.png" },
@@ -47,32 +47,32 @@
       { "name": "React", "icon": "react.png" }
     ],
     "linkContent": {
-      "label": "See complete tech stack",
+      "label": "技術スタック全体を見る",
       "href": "/stack"
     }
   },
 
   "aboutMe": {
-    "heading": "About Me",
+    "heading": "自己紹介",
     "paragraph": [
-      "I'm Egor, a frontend developer and computer science student based in Poland. I enjoy building modern, accessible interfaces using technologies like React, Tailwind, and Next.js.",
-      "Outside of web development, I experiment with embedded systems and mobile apps — combining creativity with electronics to bring ideas to life. I’m passionate about learning, building, and making things that feel meaningful.",
-      "Want to know more?"
+      "私はポーランド在住のフロントエンド開発者でコンピュータサイエンスの学生、エゴールです。React、Tailwind、Next.jsなどの技術を使ってモダンでアクセシブルなインターフェースを構築するのが好きです。",
+      "ウェブ開発以外では、組み込みシステムやモバイルアプリの実験を行い、創造性と電子工学を組み合わせてアイデアを形にしています。学び、構築し、意味を感じるものを作ることに情熱を注いでいます。",
+      "もっと知りたいですか？"
     ]
   },
 
   "callToAction": {
-    "heading": "Interested in working together?",
-    "subheading": "Let's build something great.",
+    "heading": "一緒に働きませんか？",
+    "subheading": "素晴らしいものを作りましょう。",
     "image": "cta-home.jpg",
     "buttons": [
       {
-        "label": "Get in touch",
+        "label": "連絡する",
         "linkHref": "/contact",
         "className": ""
       },
       {
-        "label": "View full portfolio",
+        "label": "ポートフォリオを見る",
         "linkHref": "/projects",
         "className": ""
       }

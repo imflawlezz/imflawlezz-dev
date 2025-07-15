@@ -1,28 +1,28 @@
 {
   "hero": {
     "heading": [
-      { "text": "Hi, I'm Егор —", "br": true },
-      { "text": "a ", "br": false },
-      { "text": "frontend developer", "className": "text-accent" },
+      { "text": "Привет, я Егор —", "br": true },
+      { "text": "", "br": false },
+      { "text": "фронтенд-разработчик", "className": "text-accent" },
       { "text": ",", "br": true },
-      { "text": "student", "className": "text-accent-secondary" },
+      { "text": "студент", "className": "text-accent-secondary" },
       { "text": ",", "br": true },
-      { "text": "tech tinkerer", "className": "text-attention", "prefix": "and " },
+      { "text": "технический энтузиаст", "className": "text-attention", "prefix": "и " },
       { "text": "." }
     ],
     "paragraph": [
-      "I build modern, responsive websites and explore the world of full-stack development.",
-      "When I’m not coding interfaces, I prototype mobile apps and create DIY smart devices powered by microcontrollers.",
-      "Always learning, always building."
+      "Создаю современные адаптивные веб-сайты и изучаю мир full-stack разработки.",
+      "Когда не пишу код для интерфейсов, разрабатываю мобильные приложения и создаю умные устройства на микроконтроллерах.",
+      "Постоянно учусь. Постоянно создаю."
     ],
     "buttons": [
       {
-        "label": "See my work",
+        "label": "Мои работы",
         "linkHref": "/projects",
         "isPrimary": true
       },
       {
-        "label": "Get in touch",
+        "label": "Связаться",
         "linkHref": "/contact",
         "isPrimary": false
       }
@@ -30,15 +30,15 @@
   },
 
   "featuredProject": {
-    "heading": "Featured Projects",
+    "heading": "Избранные проекты",
     "linkContent": {
-      "label": "View all projects",
+      "label": "Все проекты",
       "href": "/projects"
     }
   },
 
   "stackOverview": {
-    "heading": "Stack Overview",
+    "heading": "Технологии",
     "stack": [
       { "name": "Next.js", "icon": "nextjs.png" },
       { "name": "Typescript", "icon": "typescript.png" },
@@ -47,32 +47,32 @@
       { "name": "React", "icon": "react.png" }
     ],
     "linkContent": {
-      "label": "See complete tech stack",
+      "label": "Полный стек технологий",
       "href": "/stack"
     }
   },
 
   "aboutMe": {
-    "heading": "About Me",
+    "heading": "Обо мне",
     "paragraph": [
-      "I'm Egor, a frontend developer and computer science student based in Poland. I enjoy building modern, accessible interfaces using technologies like React, Tailwind, and Next.js.",
-      "Outside of web development, I experiment with embedded systems and mobile apps — combining creativity with electronics to bring ideas to life. I’m passionate about learning, building, and making things that feel meaningful.",
-      "Want to know more?"
+      "Я Егор, фронтенд-разработчик и студент компьютерных наук из Польши. Мне нравится создавать современные доступные интерфейсы с использованием React, Tailwind и Next.js.",
+      "Помимо веб-разработки, я экспериментирую с embedded-системами и мобильными приложениями, сочетая творчество с электроникой для воплощения идей в жизнь. Я увлечен обучением, созданием и разработкой значимых проектов.",
+      "Хотите узнать больше?"
     ]
   },
 
   "callToAction": {
-    "heading": "Interested in working together?",
-    "subheading": "Let's build something great.",
+    "heading": "Хотите работать вместе?",
+    "subheading": "Давайте создадим что-то великое.",
     "image": "cta-home.jpg",
     "buttons": [
       {
-        "label": "Get in touch",
+        "label": "Связаться",
         "linkHref": "/contact",
         "className": ""
       },
       {
-        "label": "View full portfolio",
+        "label": "Посмотреть портфолио",
         "linkHref": "/projects",
         "className": ""
       }
