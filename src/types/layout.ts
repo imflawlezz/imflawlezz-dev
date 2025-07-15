@@ -1,4 +1,5 @@
 import {Locale} from "@/lib/i18n/config";
+import {ReactNode} from "react";
 
 export type NavItem = {
     label: string;
@@ -39,3 +40,23 @@ export type FooterProps = {
     },
     locale: Locale;
 }
+
+export type HeroProps = {
+    heading: string;
+    subheading: string;
+    image: string;
+}
+
+export type ImageSplitSectionProps = {
+    imageUrl: string;
+    imageAlt?: string;
+    reverse?: boolean;
+    children: ReactNode;
+};
+
+export type ImageSplitSectionRendererProps = {
+    heading: string;
+    reverse?: boolean;
+    image: string;
+    paragraph: string[];
+};

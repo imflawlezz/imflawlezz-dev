@@ -1,5 +1,6 @@
 import {FooterLink} from "@/types/layout";
 import {Project} from "@/types/project";
+import {Milestone} from "@/types/about";
 
 export interface HomeMessages {
     hero: {
@@ -20,6 +21,38 @@ export interface HomeMessages {
     aboutMe: {
         heading: string;
         paragraph: string[];
+    };
+    callToAction: {
+        heading: string;
+        subheading: string;
+        image: string;
+        buttons: { label: string; linkHref: string; className?: string }[];
+        className?: string;
+    };
+}
+
+export interface AboutMessages {
+    heroContent: {
+        heading: string;
+        subheading: string;
+        image: string;
+    };
+    journeyContent: {
+        heading: string;
+        paragraph: string[];
+        milestones: Milestone[];
+    };
+    valueContent: {
+        heading: string;
+        reverse?: boolean;
+        paragraph: string[];
+        image: string;
+    };
+    beyondContent: {
+        heading: string;
+        reverse?: boolean;
+        paragraph: string[];
+        image: string;
     };
     callToAction: {
         heading: string;

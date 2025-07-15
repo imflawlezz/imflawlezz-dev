@@ -20,13 +20,6 @@ export type LinkComponentProps = {
     className?: string;
 }
 
-export type HeroProps = {
-    heading: string;
-    subheading: string;
-    imageUrl: string;
-    className?: string;
-}
-
 export type SectionHeaderProps = {
     heading: string;
     className?: string;
@@ -40,12 +33,6 @@ export type CallToActionProps = {
     className?: string;
 }
 
-export type ImageSplitSectionProps = {
-    imageUrl: string;
-    imageAlt?: string;
-    reverse?: boolean;
-    children: ReactNode;
-};
 
 export type FeaturedProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
     className?: string;
