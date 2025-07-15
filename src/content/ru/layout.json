@@ -1,10 +1,10 @@
 {
   "navItems": [
-    { "label": "Home", "href": "/" },
-    { "label": "About Me", "href": "/about" },
-    { "label": "Projects", "href": "/projects" },
-    { "label": "Stack", "href": "/stack" },
-    { "label": "Contact", "href": "/contact" }
+    { "label": "Главная", "href": "/" },
+    { "label": "Обо мне", "href": "/about" },
+    { "label": "Проекты", "href": "/projects" },
+    { "label": "Стек технологий", "href": "/stack" },
+    { "label": "Контакты", "href": "/contact" }
   ],
 
   "footerLinks": [
@@ -26,15 +26,15 @@
   ],
 
   "footer": {
-    "sitemapTitle": "Sitemap",
-    "infoTitle": "Info",
-    "infoQuote": "Design with care. Build with purpose.",
-    "locationNote": "Based in Poland 🇵🇱, open to remote work",
-    "downloadCv": "Download CV",
-    "contactTitle": "Get in touch",
+    "sitemapTitle": "Карта сайта",
+    "infoTitle": "Информация",
+    "infoQuote": "Проектируйте с заботой. Стройте с целью.",
+    "locationNote": "Нахожусь в Польше 🇵🇱, открыт для удалённой работы",
+    "downloadCv": "Скачать резюме",
+    "contactTitle": "Связаться со мной",
     "email": "imflawlezz13@gmail.com",
-    "madeWith": "Made with ❤️ &",
+    "madeWith": "Сделано с ❤️ и",
     "madeWithTech": "Next.js",
-    "copyright": "© 2025 Yahor Artsiomchyk. All rights reserved."
+    "copyright": "© 2025 Ягор Артёмчик. Все права защищены."
   }
 }

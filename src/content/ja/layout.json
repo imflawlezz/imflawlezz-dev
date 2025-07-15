@@ -1,10 +1,10 @@
 {
   "navItems": [
-    { "label": "Home", "href": "/" },
-    { "label": "About Me", "href": "/about" },
-    { "label": "Projects", "href": "/projects" },
-    { "label": "Stack", "href": "/stack" },
-    { "label": "Contact", "href": "/contact" }
+    { "label": "ホーム", "href": "/" },
+    { "label": "自己紹介", "href": "/about" },
+    { "label": "プロジェクト", "href": "/projects" },
+    { "label": "技術スタック", "href": "/stack" },
+    { "label": "連絡先", "href": "/contact" }
   ],
 
   "footerLinks": [
@@ -26,15 +26,15 @@
   ],
 
   "footer": {
-    "sitemapTitle": "Sitemap",
-    "infoTitle": "Info",
-    "infoQuote": "Design with care. Build with purpose.",
-    "locationNote": "Based in Poland 🇵🇱, open to remote work",
-    "downloadCv": "Download CV",
-    "contactTitle": "Get in touch",
+    "sitemapTitle": "サイトマップ",
+    "infoTitle": "情報",
+    "infoQuote": "心を込めてデザインし、目的を持って構築する。",
+    "locationNote": "ポーランド🇵🇱在住、リモートワーク可能",
+    "downloadCv": "履歴書をダウンロード",
+    "contactTitle": "お問い合わせ",
     "email": "imflawlezz13@gmail.com",
-    "madeWith": "Made with ❤️ &",
+    "madeWith": "❤️と共に作成",
     "madeWithTech": "Next.js",
-    "copyright": "© 2025 Yahor Artsiomchyk. All rights reserved."
+    "copyright": "© 2025 Yahor Artsiomchyk. 全著作権所有。"
   }
 }
