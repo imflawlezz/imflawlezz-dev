@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "description": "Grovemade landing. The Desk Shelf System.",
+    "fullDescription": [""],
+    "features": ["Responsive layout", "Simple component-based structure"],
+    "devComment": ""
+  },
+  {
+    "id": 2,
+    "description": "Dudeshape landing. Modern furniture",
+    "fullDescription": [""],
+    "features": ["Responsive layout", "Simple component-based structure"],
+    "devComment": ""
+  },
+  {
+    "id": 3,
+    "description": "Roby landing. A creative agency based in Helsinki.",
+    "fullDescription": [""],
+    "features": ["Responsive layout", "Component-based structure", "Advanced animations using \"motion\""],
+    "devComment": ""
+  },
+  {
+    "id": 4,
+    "description": "Latte Cafe Landing. Award winning cafe and bar.",
+    "fullDescription": [""],
+    "features": ["Responsive layout", "Simple component-based structure"],
+    "devComment": ""
+  },
+  {
+    "id": 5,
+    "description": "Woodendot landing. Furniture designed to live in harmony, creating distinctive and timeless spaces.",
+    "fullDescription": [""],
+    "features": ["Responsive layout", "Simple component-based structure"],
+    "devComment": ""
+  },
+  {
+    "id": 6,
+    "description": "Wishbone+Partners landing. The home of beautiful architecture.",
+    "fullDescription": [""],
+    "features": ["Responsive layout", "Simple component-based structure"],
+    "devComment": ""
+  },
+  {
+    "id": 7,
+    "description": "Imflawlezz.dev. My portfolio website. You are currently viewing it.",
+    "fullDescription": [
+      "So the idea of this site was to show all my work, together with skills an short story of mine.",
+      "I put a lot of time and effort to make this site look good and have all the necessary functionality."
+    ],
+    "features": ["Responsive layout", "Advanced component-based structure", "Internationalized", "Dark theme"],
+    "devComment": "Has literally everything that can be here XD"
+  }
+]
