@@ -63,6 +63,21 @@ export interface AboutMessages {
     };
 }
 
+export interface ProjectsMessages {
+    heroContent: {
+        heading: string;
+        subheading: string;
+        image: string;
+    };
+    callToAction: {
+        heading: string;
+        subheading: string;
+        image: string;
+        buttons: { label: string; linkHref: string; className?: string }[];
+        className?: string;
+    };
+}
+
 export interface LayoutMessages {
     navItems: {
         label: string; href: string;

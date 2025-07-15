@@ -1,3 +1,7 @@
+export type ProjectGridProps = {
+    projects: Project[];
+}
+
 export type Project = {
     id: number;
     title: string;
