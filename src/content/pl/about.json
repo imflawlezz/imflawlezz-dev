@@ -1,0 +1,58 @@
+{
+  "heroContent": {
+    "heading": "O mnie",
+    "subheading": "Programista, twórca i wieczny uczeń. Pasjonuję się nie tylko tworzeniem stron, ale także realizacją pomysłów. Ta strona jest bardziej osobista — oto moja historia.",
+    "image": "hero-about.jpg"
+  },
+
+  "journeyContent": {
+    "heading": "Moja podróż",
+    "paragraph": [
+      "Zacząłem programować z ciekawości — zafascynowany tym, jak działają interfejsy i jak reagują maszyny. Z czasem ta ciekawość przerodziła się w pasję.",
+      "Obecnie studiuję informatykę w Polsce i skupiam się głównie na frontendzie, korzystając z Reacta i Next.js. Poza tym eksploruję świat systemów wbudowanych i projektów IoT opartych na BLE."
+    ],
+    "milestones": [
+      { "year": "2017", "label": "Odkryłem HTML i CSS" },
+      { "year": "2018", "label": "Poznałem JavaScript" },
+      { "year": "2021", "label": "Odkryłem Bootstrap" },
+      { "year": "2023", "label": "Rozpocząłem studia informatyczne" },
+      { "year": "2024", "label": "Poznawałem frameworki webowe" },
+      { "label": "A to dopiero początek..." }
+    ]
+  },
+
+  "valueContent": {
+    "heading": "Co cenię",
+    "reverse": false,
+    "paragraph": [
+      "Wierzę, że świetne oprogramowanie to nie tylko funkcjonalność — to także przemyślane rozwiązania.",
+      "Dbam o czysty kod, dostępność, przejrzysty design i celowość w każdym tworzonym produkcie.",
+      "Niezależnie, czy to pełna aplikacja full-stack, czy prototyp sprzętowy — staram się tworzyć rzeczy, z których przyjemnie się korzysta."
+    ],
+    "image": "value.jpeg"
+  },
+
+  "beyondContent": {
+    "heading": "Poza kodem",
+    "reverse": true,
+    "paragraph": [
+      "Poza programowaniem uwielbiam odkrywać kulturę japońską, majsterkować z DIY elektroniką i czasami projektować własne urządzenia od podstaw.",
+      "Wierzę, że kreatywność i ciekawość idą w parze — czy to przy budowaniu nowego urządzenia, czy nauce języka obcego."
+    ],
+    "image": "beyond-code.jpeg"
+  },
+
+  "callToAction": {
+    "heading": "Chcesz się skontaktować lub współpracować?",
+    "subheading": "Porozmawiajmy. Zawsze chętnie poznaję ciekawych ludzi.",
+    "image": "cta-about.jpg",
+    "buttons": [
+      {
+        "label": "Skontaktuj się",
+        "linkHref": "/contact",
+        "className": ""
+      }
+    ],
+    "className": "items-start text-left"
+  }
+}
