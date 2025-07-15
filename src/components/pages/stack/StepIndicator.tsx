@@ -1,7 +1,5 @@
-'use client';
 import React from 'react';
 import {StepIndicatorProps} from "@/types/ui";
-import {motion} from "motion/react"
 
 export const StepIndicator = ({
                                   value = 0,
@@ -32,7 +30,7 @@ export const StepIndicator = ({
 
         if (isHalfFilled) {
             return (
-                <motion.div
+                <div
                     key={index}
                     {...baseProps}
                     className={`${dimensions} ${emptyColor} rounded-xs relative overflow-hidden`}
@@ -40,14 +38,14 @@ export const StepIndicator = ({
                     <div
                         className={`absolute top-0 left-0 h-full w-1/2 ${filledColor}`}
                     />
-                </motion.div>
+                </div>
             );
         }
 
         const barColorClass = isFullyFilled ? filledColor : emptyColor;
 
         return (
-            <motion.div
+            <div
                 key={index}
                 {...baseProps}
                 className={`${dimensions} ${barColorClass} rounded-xs`}

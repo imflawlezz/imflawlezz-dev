@@ -17,7 +17,7 @@ export const ImageSplitSection = ({
             initial={{ opacity: 0}}
             whileInView={{ opacity: 1}}
             viewport={{ once: true, amount: 0.4 }}
-            transition={{ duration: 0.6, ease: 'easeOut' }}
+            transition={{ duration: 0.3, ease: 'easeOut' }}
             className={clsx(
                 'w-full flex flex-col md:min-h-[480px]',
                 reverse ? 'md:flex-row-reverse' : 'md:flex-row'
