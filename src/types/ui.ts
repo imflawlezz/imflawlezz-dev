@@ -1,4 +1,3 @@
-import {ReactNode} from "react";
 import type {Project} from "@/types/project";
 
 export type ButtonProps = {
