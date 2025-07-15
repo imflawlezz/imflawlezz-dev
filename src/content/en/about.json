@@ -53,6 +53,6 @@
         "className": ""
       }
     ],
-    "className": "items-start text-left"
+    "className": "items-end text-right"
   }
 }
