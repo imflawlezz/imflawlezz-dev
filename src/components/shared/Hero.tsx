@@ -1,17 +1,17 @@
-import {HeroProps} from "@/types/ui";
+import {HeroProps} from "@/types/layout";
 import Image from "next/image"
+import {resolveAsset} from "@/utils/resolveAsset";
 
 export const Hero = ({
     heading,
     subheading,
-    imageUrl,
-    className
+    image,
 }:HeroProps) => {
     return (
-        <section className={`relative px-12 py-24 flex flex-col items-center justify-center ${className}`}>
+        <section className={`relative px-12 py-24 flex flex-col items-center justify-center`}>
             <Image
                 alt={heading}
-                src={imageUrl}
+                src={resolveAsset('hero', image)}
                 fill
                 className="-z-10 object-cover object-center"
             />
@@ -20,7 +20,7 @@ export const Hero = ({
                 className="absolute inset-0 bg-black/50 z-0 pointer-events-none"
             />
 
-            <div className={`relative flex flex-col gap-8 z-20 items-center text-center text-white ${className}`}>
+            <div className={`relative flex flex-col gap-8 z-20 items-center text-center text-white`}>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold leading-tight">
                     {heading}
                 </h1>

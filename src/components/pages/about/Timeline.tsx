@@ -1,23 +1,27 @@
 'use client';
 
 import {SectionHeading} from "@/components/ui/SectionHeading";
-import {journeyContent} from "@/data/about";
 import {motion} from "motion/react";
+import {TimelineProps} from "@/types/about";
 
-export const Timeline = () => {
+export const Timeline = ({
+    heading,
+    paragraph,
+    milestones
+}:TimelineProps) => {
 
     return (
         <section className="w-full px-16 md:px-36 py-18 lg:py-24 flex flex-col gap-9 lg:gap-24 items-center justify-center">
-            <SectionHeading heading={journeyContent.heading}/>
+            <SectionHeading heading={heading}/>
 
             <div className="max-w-4xl md:max-w-7xl text-muted text-lg flex flex-col gap-4">
-                {journeyContent.paragraph.map((paragraph, index) => (
-                    <p key={index}>{paragraph.text}</p>
+                {paragraph.map((item, index) => (
+                    <p key={index}>{item}</p>
                 ))}
             </div>
 
             <div className="relative flex flex-col md:flex-row gap-5 items-start md:justify-between">
-                {journeyContent.milestones.map((item, idx) => (
+                {milestones.map((item, idx) => (
                     <motion.div
                         key={idx}
                         initial={{ opacity: 0, y: 20 }}
@@ -32,7 +36,7 @@ export const Timeline = () => {
                     >
                         <div className={`
                             relative w-7 h-7 md:w-6 md:h-6 rounded-full flex items-center justify-center 
-                            ${idx === journeyContent.milestones.length - 1
+                            ${idx === milestones.length - 1
                             ? 'bg-foreground animate-pulse'
                             : 'bg-accent-secondary'}
                         `}>
@@ -45,7 +49,7 @@ export const Timeline = () => {
                             <h2 className="text-foreground text-2xl">{item.year}</h2>
                             <p
                                 className={`
-                                ${idx === journeyContent.milestones.length - 1
+                                ${idx === milestones.length - 1
                                     ? 'font-heading text-foreground text-xl'
                                     : 'text-muted text-xl md:text-lg'}
                                 `}

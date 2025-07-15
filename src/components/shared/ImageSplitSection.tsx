@@ -2,8 +2,9 @@
 
 import Image from 'next/image';
 import clsx from 'clsx';
-import { ImageSplitSectionProps } from '@/types/ui';
+import { ImageSplitSectionProps } from '@/types/layout';
 import { motion } from 'motion/react';
+import {resolveAsset} from "@/utils/resolveAsset";
 
 export const ImageSplitSection = ({
                                       imageUrl,
@@ -24,7 +25,7 @@ export const ImageSplitSection = ({
         >
             <div className="relative h-[320px] w-full md:w-1/2 md:h-auto">
                 <Image
-                    src={imageUrl}
+                    src={resolveAsset('sections', imageUrl)}
                     alt={imageAlt}
                     fill
                     className="object-cover"
