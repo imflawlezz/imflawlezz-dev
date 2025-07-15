@@ -1,12 +1,13 @@
 import {resolveAsset} from "@/utils/resolveAsset";
+import {Project} from "@/types/project";
 
-export const projectsData = [
+export const projectsData : Project[] = [
     {
         id: 1,
         title: 'Grovemade',
         technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Grovemade landing. The Desk Shelf System.",
-        fullDescription: "",
+        fullDescription: [""],
         imageUrl: resolveAsset('projects', 'grovemade.jpeg'),
         githubUrl: "https://github.com/imflawlezz/grovemade-landing",
         liveUrl: "https://grovemade-landing.vercel.app/",
@@ -18,7 +19,7 @@ export const projectsData = [
         title: 'Dudeshape',
         technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Dudeshape landing. Modern furniture",
-        fullDescription: "",
+        fullDescription: [""],
         imageUrl: resolveAsset('projects', 'dudeshape.jpeg'),
         githubUrl: "https://github.com/imflawlezz/dudeshape-landing",
         liveUrl: "https://dudeshape-landing.vercel.app/",
@@ -30,7 +31,7 @@ export const projectsData = [
         title: 'Roby',
         technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Roby landing. A creative agency based in Helsinki.",
-        fullDescription: "",
+        fullDescription: [""],
         imageUrl: resolveAsset('projects', 'roby.jpeg'),
         githubUrl: "https://github.com/imflawlezz/roby-landing",
         liveUrl: "https://roby-landing-delta.vercel.app/",
@@ -42,7 +43,7 @@ export const projectsData = [
         title: 'Latte Cafe',
         technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Latte Cafe Landing. Award winning cafe and bar.",
-        fullDescription: "",
+        fullDescription: [""],
         imageUrl: resolveAsset('projects', 'latte-cafe.png'),
         githubUrl: "https://github.com/imflawlezz/latte-cafe-landing",
         liveUrl: "https://latte-cafe-landing.vercel.app/",
@@ -54,7 +55,7 @@ export const projectsData = [
         title: 'Woodendot',
         technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Woodendot landing. Furniture designed to live in harmony, creating distinctive and timeless spaces.",
-        fullDescription: "",
+        fullDescription: [""],
         imageUrl: resolveAsset('projects', 'woodendot.jpeg'),
         githubUrl: "https://github.com/imflawlezz/woodendot-landing",
         liveUrl: "https://woodendot-nine.vercel.app/",
@@ -66,7 +67,7 @@ export const projectsData = [
         title: 'Wishbone',
         technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'PET project'],
         description: "Wishbone+Partners landing. The home of beautiful architecture.",
-        fullDescription: "",
+        fullDescription: [""],
         imageUrl: resolveAsset('projects', 'wishbone.jpeg'),
         githubUrl: "https://github.com/imflawlezz/wishbone-landing",
         liveUrl: "https://wishbone-landing.vercel.app/",
@@ -78,8 +79,9 @@ export const projectsData = [
         title: 'imflawlezz.dev',
         technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'Redis', 'Vercel Serverless Backend'],
         description: "Imflawlezz.dev. My portfolio website. You are currently viewing it.",
-        fullDescription: "So the idea of this site was to show all my work, together with skills an short story of mine. " +
-            "I put a lot of time and effort to make this site look good and have all the necessary functionality.",
+        fullDescription:
+            ["So the idea of this site was to show all my work, together with skills an short story of mine.",
+            "I put a lot of time and effort to make this site look good and have all the necessary functionality.",],
         imageUrl: resolveAsset('projects', 'imflawlezz.jpg'),
         githubUrl: "https://github.com/imflawlezz/imflawlezz-dev",
         liveUrl: "https://imflawlezz.dev/",
