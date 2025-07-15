@@ -1,4 +1,5 @@
 import {FooterLink} from "@/types/layout";
+import {Project} from "@/types/project";
 
 export interface HomeMessages {
     hero: {
@@ -9,6 +10,7 @@ export interface HomeMessages {
     featuredProject: {
         heading: string;
         linkContent: { label: string; href: string };
+        projects: Project[];
     };
     stackOverview: {
         heading: string;

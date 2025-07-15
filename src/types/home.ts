@@ -1,4 +1,5 @@
 import {ButtonProps} from "@/types/ui";
+import {Project} from "@/types/project";
 
 export type HeadingProps = {
     text: string;
@@ -17,7 +18,8 @@ export type FeaturedProjectsProps = {
     linkContent: {
         label: string,
         href: string,
-    }
+    },
+    projects: Project[]
 }
 
 export type StackOverviewProps = {
