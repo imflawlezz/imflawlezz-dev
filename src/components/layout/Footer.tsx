@@ -35,7 +35,7 @@ export const Footer = ({
                 </div>
 
                 <div className="flex flex-col gap-6">
-                    <h1 className="font-heading text-lg font-medium">{footer.sitemapTitle}</h1>
+                    <h1 className="font-heading text-lg font-medium">{footer.infoTitle}</h1>
                     <div className="flex flex-col gap-4">
                         <p className="text-muted">
                             {footer.infoQuote}
