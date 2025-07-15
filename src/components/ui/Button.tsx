@@ -14,7 +14,7 @@ export const Button = ({
     const locale = useParams()?.locale || 'en';
     return (
         <Link
-            href={linkHref ? localizedPath(locale, linkHref) : `/#`}
+            href={linkHref && linkHref.startsWith("/") ? localizedPath(locale, linkHref) : linkHref}
             onClick={onClick}
             className={`${className} p-3 md:px-6 md:py-3 text-base text-center rounded-xl transition duration-300 ease-in-out
                 ${isPrimary ? 'text-white bg-accent hover:bg-accent-hover' : 

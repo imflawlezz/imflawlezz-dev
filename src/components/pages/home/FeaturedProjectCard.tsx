@@ -7,6 +7,7 @@ import { ArrowDownRightIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import {FeaturedProjectCardProps} from "@/types/ui";
+import {useParams} from "next/navigation";
 
 
 
@@ -21,6 +22,7 @@ export const FeaturedProjectCard = ({
     onActivate,
 }: FeaturedProjectCardProps) => {
     const [isTouchDevice, setIsTouchDevice] = useState(false);
+    const locale = useParams()?.locale || 'en';
 
     useEffect(() => {
         const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
@@ -76,7 +78,7 @@ export const FeaturedProjectCard = ({
                     transition={{ type: 'spring', stiffness: 300, damping: 24 }}
                     whileHover={{ scale: 1.2 }}
                 >
-                    <Link href={`/projects/${id}`}>
+                    <Link href={`${locale}/projects/${id}`}>
                         <ArrowDownRightIcon className="w-6 h-6" />
                     </Link>
                 </motion.div>
