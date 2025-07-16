@@ -4,8 +4,6 @@ import Link from 'next/link';
 import { ArrowLeftIcon, ArrowRightIcon, HomeIcon } from '@heroicons/react/24/solid';
 import clsx from 'clsx';
 import {PageNavProps} from "@/types/ui";
-import {projectPageNavContent} from "@/data/layout";
-import {useParams} from "next/navigation";
 
 export const PageNav = ({
     mainLink,
@@ -13,7 +11,6 @@ export const PageNav = ({
     nextLink,
     className = ''
 }: PageNavProps) => {
-    const locale = useParams()?.locale || 'en';
     return (
         <nav
             className={clsx(
@@ -23,7 +20,7 @@ export const PageNav = ({
         >
             <Link href={mainLink.href} className="flex items-center justify-self-center gap-2 text-foreground hover:underline">
                 <HomeIcon className="w-5 h-5" />
-                <span>{mainLink.label ? mainLink.label : projectPageNavContent.home}</span>
+                <span>{mainLink.label}</span>
             </Link>
 
             <div className=" w-full flex flex-row justify-between items-center">
