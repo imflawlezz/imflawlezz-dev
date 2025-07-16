@@ -1,54 +1,54 @@
 [
   {
     "id": 1,
-    "description": "Grovemade landing. The Desk Shelf System.",
+    "description": "Grovemadeランディングページ。デスクシェルフシステム。",
     "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
+    "features": ["レスポンシブデザイン", "シンプルなコンポーネント構造"],
     "devComment": ""
   },
   {
     "id": 2,
-    "description": "Dudeshape landing. Modern furniture",
+    "description": "Dudeshapeランディングページ。モダンな家具。",
     "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
+    "features": ["レスポンシブデザイン", "シンプルなコンポーネント構造"],
     "devComment": ""
   },
   {
     "id": 3,
-    "description": "Roby landing. A creative agency based in Helsinki.",
+    "description": "Robyランディングページ。ヘルシンキ拠点のクリエイティブエージェンシー。",
     "fullDescription": [""],
-    "features": ["Responsive layout", "Component-based structure", "Advanced animations using \"motion\""],
+    "features": ["レスポンシブデザイン", "コンポーネントベースの構造", "\"motion\"を使用した高度なアニメーション"],
     "devComment": ""
   },
   {
     "id": 4,
-    "description": "Latte Cafe Landing. Award winning cafe and bar.",
+    "description": "Latte Cafeランディングページ。受賞歴のあるカフェ＆バー。",
     "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
+    "features": ["レスポンシブデザイン", "シンプルなコンポーネント構造"],
     "devComment": ""
   },
   {
     "id": 5,
-    "description": "Woodendot landing. Furniture designed to live in harmony, creating distinctive and timeless spaces.",
+    "description": "Woodendotランディングページ。調和を生む家具。ユニークで時代を超えた空間を創造。",
     "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
+    "features": ["レスポンシブデザイン", "シンプルなコンポーネント構造"],
     "devComment": ""
   },
   {
     "id": 6,
-    "description": "Wishbone+Partners landing. The home of beautiful architecture.",
+    "description": "Wishbone+Partnersランディングページ。美しい建築の世界。",
     "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
+    "features": ["レスポンシブデザイン", "シンプルなコンポーネント構造"],
     "devComment": ""
   },
   {
     "id": 7,
-    "description": "Imflawlezz.dev. My portfolio website. You are currently viewing it.",
+    "description": "Imflawlezz.dev。私のポートフォリオサイト。今ご覧のページです。",
     "fullDescription": [
-      "So the idea of this site was to show all my work, together with skills an short story of mine.",
-      "I put a lot of time and effort to make this site look good and have all the necessary functionality."
+      "このサイトの目的は、私の作品、スキル、簡単な経歴を全て紹介することでした。",
+      "見た目と機能性を追求するために、多くの時間と努力を注ぎました。"
     ],
-    "features": ["Responsive layout", "Advanced component-based structure", "Internationalized", "Dark theme"],
-    "devComment": "Has literally everything that can be here XD"
+    "features": ["レスポンシブデザイン", "高度なコンポーネント構造", "多言語対応", "ダークテーマ"],
+    "devComment": "ここには文字通り全てが詰まっています XD"
   }
 ]
