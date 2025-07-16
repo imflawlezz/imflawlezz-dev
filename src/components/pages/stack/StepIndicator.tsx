@@ -21,18 +21,10 @@ export const StepIndicator = ({
         const isFullyFilled = index < fullBars;
         const isHalfFilled = index === fullBars && hasHalfBar;
 
-        const baseProps = {
-            initial: { opacity: 0},
-            whileInView: { opacity: 1},
-            viewport: { once: false, amount: 1 },
-            transition: { duration: 0.7, delay: 0.05 * index},
-        };
-
         if (isHalfFilled) {
             return (
                 <div
                     key={index}
-                    {...baseProps}
                     className={`${dimensions} ${emptyColor} rounded-xs relative overflow-hidden`}
                 >
                     <div
@@ -47,7 +39,6 @@ export const StepIndicator = ({
         return (
             <div
                 key={index}
-                {...baseProps}
                 className={`${dimensions} ${barColorClass} rounded-xs`}
             />
         );
