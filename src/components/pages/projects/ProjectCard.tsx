@@ -5,6 +5,7 @@ import {Badge} from "@/components/ui/Badge";
 import {LinkComponent} from "@/components/ui/LinkComponent";
 import { motion } from "motion/react";
 import {useScrollDirection} from "@/hooks/useScrollDirection";
+import {useParams} from "next/navigation";
 
 export const ProjectCard = ({
     title,
@@ -16,6 +17,14 @@ export const ProjectCard = ({
     reverse = false,
 }:ProjectCardProps)=> {
     const scrollDirection = useScrollDirection();
+    const locale = (useParams()?.locale as string) || "en";
+
+    const readMoreLabel = {
+        en: "Read more",
+        ru: "Подробнее",
+        pl: "Zobacz więcej",
+        ja: "もっと見る",
+    }[locale] || "Read more";
     return (
         <div
             className={clsx(
@@ -65,7 +74,7 @@ export const ProjectCard = ({
                         {description}
                     </p>
 
-                    <LinkComponent href={`/projects/${id}`} label={"Read more"}/>
+                    <LinkComponent href={`/projects/${id}`} label={readMoreLabel}/>
                 </motion.div>
             </div>
         </div>

@@ -78,6 +78,18 @@ export interface ProjectsMessages {
     };
 }
 
+export type ProjectInfoMessages = {
+    allProjectsLabel: string;
+    tagsLabel: string;
+    descriptionLabel: string;
+    featuresLabel: string;
+    screenshotsLabel: string;
+    commentLabel: string;
+    viewLiveLabel: string;
+    viewSourceLabel: string;
+};
+
+
 export interface LayoutMessages {
     navItems: {
         label: string; href: string;

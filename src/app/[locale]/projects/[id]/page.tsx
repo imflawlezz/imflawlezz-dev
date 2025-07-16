@@ -1,5 +1,4 @@
-import { notFound } from 'next/navigation';
-import { projectsData } from '@/data/projectsData';
+import {notFound} from 'next/navigation';
 import { getItemWithContext } from '@/utils/getItemWithContext';
 import { ProjectHero } from '@/components/pages/projects/ProjectHero';
 import { Badge } from '@/components/ui/Badge';
@@ -7,13 +6,21 @@ import { PageNav } from '@/components/shared/PageNav';
 import { CodeBracketIcon, RocketLaunchIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import {ImageSlider} from "@/components/shared/ImageSlider";
-import { projectInfo } from '@/data/projects';
+import {getLocalizedProjects} from "@/utils/getLocalizedProjects";
+import {Locale} from "@/lib/i18n/config";
+import {getPageMessages} from "@/lib/i18n/getPageMessgaes";
+import {ProjectInfoMessages} from "@/types/i18n";
 
-export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
+
+export default async function ProjectPage({ params }: { params: Promise<{ locale: Locale, id: string}> }) {
     const { id } = await params;
+    const { locale } = await params;
+    const projectInfo = await getPageMessages<ProjectInfoMessages>(locale, 'projectInfo');
     const projectId = parseInt(id);
+    const projects = await getLocalizedProjects(locale);
 
-    const { item: project, prev, next } = getItemWithContext(projectsData, projectId);
+
+    const { item: project, prev, next } = getItemWithContext(projects, projectId);
 
     if (!project) return notFound();
 
@@ -24,9 +31,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
             <section className="w-full md:px-16 xl:px-36">
                 <div className="flex flex-col gap-8 bg-background-variant p-6 md:p-12 md:rounded-b-4xl">
                     <PageNav
-                        mainLink={{ href: '/projects', label: projectInfo.allProjectsLabel }}
-                        prevLink={prev && { href: `/projects/${prev.id}`, label: prev.title }}
-                        nextLink={next && { href: `/projects/${next.id}`, label: next.title }}
+                        mainLink={{ href: `./`, label: projectInfo.allProjectsLabel }}
+                        prevLink={prev && { href: `${prev.id}`, label: prev.title }}
+                        nextLink={next && { href: `${next.id}`, label: next.title }}
                     />
 
                     <div className="flex flex-wrap gap-3">

@@ -5,6 +5,7 @@ import { ArrowLeftIcon, ArrowRightIcon, HomeIcon } from '@heroicons/react/24/sol
 import clsx from 'clsx';
 import {PageNavProps} from "@/types/ui";
 import {projectPageNavContent} from "@/data/layout";
+import {useParams} from "next/navigation";
 
 export const PageNav = ({
     mainLink,
@@ -12,6 +13,7 @@ export const PageNav = ({
     nextLink,
     className = ''
 }: PageNavProps) => {
+    const locale = useParams()?.locale || 'en';
     return (
         <nav
             className={clsx(
@@ -28,13 +30,13 @@ export const PageNav = ({
                 {prevLink ? (
                     <Link href={prevLink.href} className="flex text-left items-center gap-2 text-accent hover:underline">
                         <ArrowLeftIcon className="w-5 h-5" />
-                        <span>{projectPageNavContent.prev} {prevLink.label && `(${prevLink.label})`}</span>
+                        <span>{prevLink.label}</span>
                     </Link>
                 ) : <span className="invisible">.</span>}
 
                 {nextLink ? (
                     <Link href={nextLink.href} className="flex text-right items-center gap-2 text-accent hover:underline">
-                        <span>{projectPageNavContent.next} {nextLink.label && `(${nextLink.label})`}</span>
+                        <span>{nextLink.label}</span>
                         <ArrowRightIcon className="w-5 h-5" />
                     </Link>
                 ) : <span className="invisible">.</span>}
