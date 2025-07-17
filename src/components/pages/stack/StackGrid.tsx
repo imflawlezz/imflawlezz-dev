@@ -1,12 +1,15 @@
-import {stackDetails} from "@/data/stack";
 import clsx from "clsx";
 import Image from "next/image";
 import {StepIndicator} from "@/components/pages/stack/StepIndicator";
+import {StackGridProps} from "@/types/stack";
+import {resolveAsset} from "@/utils/resolveAsset";
 
-export const StackGrid = () => {
+export const StackGrid = ({
+    stackDetails,
+}:StackGridProps) => {
     return (
         <div className="flex flex-col gap-16 md:gap-20 lg:gap-24 2xl:gap-28">
-            {stackDetails.categories.map((category, index) => (
+            {stackDetails.category.map((category, index) => (
                 <div
                     key={index}
                     className={
@@ -34,14 +37,14 @@ export const StackGrid = () => {
                     </div>
 
                     <div className="flex flex-col gap-2.5 items-start w-full">
-                        {category.technologies.map((technology, index) => (
+                        {category.technology.map((technology, index) => (
                             <div
                                 key={index}
                                 className="flex flex-row items-start justify-center p-2.5 gap-4"
                             >
                                 <Image
                                     alt={technology.name}
-                                    src={technology.iconUrl}
+                                    src={resolveAsset('stack', technology.image)}
                                     width={48}
                                     height={48}
                                     className={``}
