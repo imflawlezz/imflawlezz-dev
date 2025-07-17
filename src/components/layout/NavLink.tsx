@@ -6,17 +6,19 @@ import type { NavLinkProps } from '@/types/layout';
 import {localizedPath} from "@/utils/localizedPath";
 
 export const NavLink = ({
-    item,
-    isActive,
-    onClick
-}: NavLinkProps) => {
+                            item,
+                            isActive,
+                            onClick
+                        }: NavLinkProps) => {
     const locale = useParams()?.locale || 'en';
     const pathname = usePathname();
-    const active = isActive ?? pathname.endsWith(item.href);
+
+    const fullLocalizedPath = localizedPath(locale, item.href);
+    const active = isActive ?? pathname === fullLocalizedPath;
 
     return (
         <Link
-            href={localizedPath(locale, item.href)}
+            href={fullLocalizedPath}
             onClick={onClick}
             className={`text-xl md:text-base font-medium transition-colors duration-200
                 ${active ? 'text-accent' : 'text-muted hover:text-accent-hover'}

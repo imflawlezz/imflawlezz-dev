@@ -1,5 +1,4 @@
 'use client';
-import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -7,12 +6,12 @@ import { Logo } from "@/components/ui/Logo";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
 import {HeaderProps} from "@/types/layout";
+import {NavLink} from "@/components/layout/NavLink";
 
 
 
 export const Header = ({
     navItems,
-    locale,
 }: HeaderProps) => {
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -23,13 +22,11 @@ export const Header = ({
 
             <nav className="hidden md:flex items-center gap-6">
                 {navItems.map(item => (
-                    <Link
+                    <NavLink
                         key={item.href}
-                        href={`/${locale}${item.href}`}
-                        className="hover:text-accent transition"
-                    >
-                        {item.label}
-                    </Link>
+                        item={item}
+                    />
+
                 ))}
                 <ThemeToggle />
             </nav>
@@ -60,13 +57,11 @@ export const Header = ({
                                 exit={{ opacity: 0, y: 10 }}
                                 transition={{ duration: 0.3, delay: 0.1 * index }}
                             >
-                                <Link
-                                    href={`/${locale}${item.href}`}
+                                <NavLink
+                                    key={item.href}
+                                    item={item}
                                     onClick={() => setMenuOpen(false)}
-                                    className="text-xl"
-                                >
-                                    {item.label}
-                                </Link>
+                                />
                             </motion.div>
 
                         ))}
