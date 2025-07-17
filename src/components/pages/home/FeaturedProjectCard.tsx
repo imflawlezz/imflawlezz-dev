@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { ArrowDownRightIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import {FeaturedProjectCardProps} from "@/types/ui";
+import {FeaturedProjectCardProps} from "@/types/home";
 import {useParams} from "next/navigation";
 
 

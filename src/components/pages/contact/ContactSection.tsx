@@ -1,9 +1,13 @@
 import {ContactForm} from "@/components/pages/contact/ContactForm";
-import {contactFormContent, contactLinksContent} from "@/data/contact";
 import Link from "next/link";
 import Image from "next/image";
+import {ContactSectionProps} from "@/types/contact";
+import {resolveAsset} from "@/utils/resolveAsset";
 
-export const ContactSection = () => {
+export const ContactSection = ({
+    contactLinksContent,
+    contactFormContent,
+}: ContactSectionProps ) => {
     return (
         <section className="
             w-full items-center justify-between flex flex-col md:flex-row
@@ -25,7 +29,7 @@ export const ContactSection = () => {
                         >
                             <Image
                                 alt={item.name}
-                                src={item.iconUrl}
+                                src={resolveAsset('icons', item.icon)}
                                 width={24}
                                 height={24}
                                 unoptimized

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import {ProjectHeroProps} from "@/types/ui";
+import {ProjectHeroProps} from "@/types/project";
 
 
 

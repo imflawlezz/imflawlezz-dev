@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import {ProjectCardProps} from "@/types/ui";
+import {ProjectCardProps} from "@/types/project";
 import Image from "next/image";
 import {Badge} from "@/components/ui/Badge";
 import {LinkComponent} from "@/components/ui/LinkComponent";

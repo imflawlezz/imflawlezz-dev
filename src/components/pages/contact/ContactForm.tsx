@@ -1,4 +1,4 @@
-import {ContactFormProps} from "@/types/ui";
+import {ContactFormProps} from "@/types/contact";
 import {PaperAirplaneIcon} from "@heroicons/react/16/solid";
 
 export const ContactForm = ({
