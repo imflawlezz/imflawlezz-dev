@@ -7,16 +7,21 @@ import { FeaturedProjects } from "@/components/pages/home/FeaturedProjects";
 import { StackOverview } from "@/components/pages/home/StackOverview";
 import { ShortAboutMe } from "@/components/pages/home/ShortAboutMe";
 import { CallToAction } from "@/components/shared/CallToAction";
-import {getLocalizedProjects} from "@/utils/getLocalizedProjects";
+import { getLocalizedProjects } from "@/utils/getLocalizedProjects";
 
-export default async function HomePage({ params }: { params: { locale: Locale } }) {
-    const t = (await getPageMessages(params.locale, 'home')) as HomeMessages;
-    const projects = await getLocalizedProjects(params.locale);
+export default async function HomePage({
+    params,
+}: {
+    params: Promise<{ locale: Locale }>;
+}) {
+    const { locale } = await params;
+    const t = (await getPageMessages(locale, "home")) as HomeMessages;
+    const projects = await getLocalizedProjects(locale);
 
     return (
         <>
             <Hero {...t.hero} />
-            <FeaturedProjects {...t.featuredProject}  projects={projects}/>
+            <FeaturedProjects {...t.featuredProject} projects={projects} />
             <StackOverview {...t.stackOverview} />
             <ShortAboutMe {...t.aboutMe} />
             <CallToAction {...t.callToAction} />
