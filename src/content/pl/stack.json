@@ -1,0 +1,163 @@
+{
+  "heroContent": {
+    "heading": "Technologie",
+    "subheading": "Oto technologie, z którymi pracuję najczęściej, te, których się aktualnie uczę oraz te, które eksplorowałem. Moim celem jest budowanie szybkich, skalowalnych i intuicyjnych rozwiązań — wierzę, że odpowiednie narzędzia robią różnicę.",
+    "image": "hero-stack.jpg"
+  },
+  "sectionContent": {
+    "stackDetails": {
+      "category": [
+        {
+          "heading": "Podstawowe technologie",
+          "description": "Technologie, które używam regularnie i z którymi czuję się pewnie.",
+          "technology": [
+            {
+              "name": "Next.js",
+              "description": "Mój podstawowy framework do tworzenia stron internetowych",
+              "proficiency": 4.5,
+              "image": "nextjs.png"
+            },
+            {
+              "name": "TypeScript",
+              "description": "Ścisłe typowanie to mój standard — TypeScript pomaga mi wychwytywać problemy wcześnie podczas budowania skalowalnych aplikacji.",
+              "proficiency": 4,
+              "image": "ts.png"
+            },
+            {
+              "name": "Tailwind CSS",
+              "description": "Używam Tailwind CSS niemal instynktownie — to mój preferowany sposób tworzenia czystych, spójnych i responsywnych interfejsów.",
+              "proficiency": 5,
+              "image": "tailwindcss.png"
+            },
+            {
+              "name": "React",
+              "description": "Chociaż nie używam Reacta bezpośrednio zbyt często, jest podstawą Next.js — więc świetnie znam jego podstawowe koncepcje.",
+              "proficiency": 4.5,
+              "image": "react.png"
+            },
+            {
+              "name": "JavaScript",
+              "description": "Równie pewnie piszę w czystym JavaScript — uzupełnia on moje użycie TypeScript i zwiększa kompatybilność.",
+              "proficiency": 4,
+              "image": "js.png"
+            }
+          ]
+        },
+        {
+          "heading": "Aktualnie się uczę",
+          "description": "Technologie, które obecnie poznaję, aby zostać full-stack developerem.",
+          "technology": [
+            {
+              "name": "Express",
+              "description": "Uczę się Express, aby budować pełnoprawne aplikacje i lepiej rozumieć podstawy backendu.",
+              "proficiency": 1,
+              "image": "express.png"
+            },
+            {
+              "name": "MongoDB",
+              "description": "W ramach mojej podróży w świat full-stack developmentu, poznaję MongoDB jako elastyczną, nowoczesną bazę danych NoSQL.",
+              "proficiency": 1,
+              "image": "mongodb.png"
+            },
+            {
+              "name": "Swift",
+              "description": "Aby tworzyć natywne aplikacje na platformy Apple, zacząłem uczyć się Swifta — krok w kierunku pełnego rozwoju mobilnego.",
+              "proficiency": 1.5,
+              "image": "swift.png"
+            }
+          ]
+        },
+        {
+          "heading": "Również znam",
+          "description": "Technologie, z którymi pracowałem w projektach akademickich lub pobocznych.",
+          "technology": [
+            {
+              "name": "Java",
+              "description": "Mój ulubiony język programowania. Studiowałem go przez ponad rok na uniwersytecie i nadal lubię w nim pisać.",
+              "proficiency": 3.5,
+              "image": "java.png"
+            },
+            {
+              "name": "C++",
+              "description": "Używam C++ głównie do programowania mikrokontrolerów w moich projektach DIY.",
+              "proficiency": 3,
+              "image": "cpp.png"
+            },
+            {
+              "name": "HTML",
+              "description": "HTML to podstawa internetu — znam go doskonale i traktuję jak drugą naturę.",
+              "proficiency": 5,
+              "image": "html.png"
+            },
+            {
+              "name": "CSS",
+              "description": "CSS było jednym z pierwszych narzędzi, które opanowałem, i nadal jest kluczową częścią mojej pracy frontendowej obok Tailwind.",
+              "proficiency": 5,
+              "image": "css.png"
+            },
+            {
+              "name": "Angular",
+              "description": "Angular był pierwszym frameworkiem, który poznałem. Choć początkowo wydawał się złożony, doceniłem jego filozofię komponentową.",
+              "proficiency": 2.5,
+              "image": "angular.png"
+            },
+            {
+              "name": "Android Framework",
+              "description": "Pracowałem z Android Framework na uczelni i w projektach osobistych — to jeden z powodów, dla których tak bardzo lubię Javę.",
+              "proficiency": 3.5,
+              "image": "android.png"
+            }
+          ]
+        }
+      ]
+    },
+    "toolsContent": {
+      "heading": "Narzędzia, których używam",
+      "subheading": "Moje codzienne narzędzia do rozwoju, kontroli wersji i wdrażania.",
+      "tools": [
+        {
+          "name": "WebStorm",
+          "image": "webstorm.png",
+          "description": "Środowisko IDE",
+          "href": "https://www.jetbrains.com/webstorm"
+        },
+        {
+          "name": "Zed",
+          "image": "zed.png",
+          "description": "Edytor tekstu",
+          "href": "https://zed.dev"
+        },
+        {
+          "name": "Arc",
+          "image": "arc.png",
+          "description": "Przeglądarka internetowa",
+          "href": "https://arc.net/"
+        },
+        {
+          "name": "Warp",
+          "image": "warp.png",
+          "description": "Terminal",
+          "href": "https://www.warp.dev/"
+        },
+        {
+          "name": "GitHub",
+          "image": "github.png",
+          "description": "Kontrola wersji",
+          "href": "https://github.com/"
+        },
+        {
+          "name": "Vercel",
+          "image": "vercel.png",
+          "description": "Wdrażanie",
+          "href": "https://vercel.com/"
+        },
+        {
+          "name": "Docker",
+          "image": "docker.png",
+          "description": "Kontenery",
+          "href": "https://www.docker.com/"
+        }
+      ]
+    }
+  }
+}
