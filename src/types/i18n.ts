@@ -1,6 +1,7 @@
 import {FooterLink} from "@/types/layout";
 import {Project} from "@/types/project";
 import {Milestone} from "@/types/about";
+import {Stack, Tool} from "@/types/stack";
 
 export interface HomeMessages {
     hero: {
@@ -88,6 +89,27 @@ export type ProjectInfoMessages = {
     viewLiveLabel: string;
     viewSourceLabel: string;
 };
+
+export interface StackMessages {
+    heroContent: {
+        heading: string;
+        subheading: string;
+        image: string;
+    };
+    sectionContent: {
+        stackDetails: Stack,
+        toolsContent: {
+            heading: string;
+            subheading: string;
+            tools: {
+                name: string;
+                image: string;
+                description: string;
+                href: string;
+            }[]
+        }
+    }
+}
 
 
 export interface LayoutMessages {

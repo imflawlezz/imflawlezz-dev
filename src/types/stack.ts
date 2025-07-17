@@ -1,23 +1,53 @@
+import Stack from "@/app/[locale]/stack/page";
+
 export type Stack = {
-    categories: StackCategory[];
+    category: StackCategory[];
 }
 
 export type StackCategory = {
     heading: string;
     description: string;
-    technologies: Technology[];
+    technology: Technology[];
 }
 
 export type Technology = {
     name: string;
     description: string;
     proficiency: number;
-    iconUrl: string;
+    image: string;
 }
 
 export type Tool = {
     name: string;
-    iconUrl: string;
+    image: string;
     description: string;
     href: string;
+}
+
+export type StackSectionProps = {
+    stackDetails: Stack;
+    toolsContent: {
+        heading: string;
+        subheading: string;
+        tools: {
+            name: string;
+            image: string;
+            description: string;
+            href: string;
+        }[]
+    }
+}
+
+export type StackGridProps = {
+    stackDetails: Stack
+}
+export type ToolsGridProps = {
+    heading: string;
+    subheading: string;
+    tools: {
+        name: string;
+        image: string;
+        description: string;
+        href: string;
+    }[]
 }
