@@ -2,6 +2,11 @@ export type ProjectGridProps = {
     projects: Project[];
 }
 
+export type ProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
+    className?: string;
+    reverse: boolean;
+};
+
 export type Project = {
     id: number;
     title: string;
@@ -15,3 +20,8 @@ export type Project = {
     features?: string[];
     screenshots?: string[];
 };
+
+export interface ProjectHeroProps {
+    heading: string;
+    imageUrl: string;
+}

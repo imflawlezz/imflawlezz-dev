@@ -1,7 +1,7 @@
 import {FooterLink} from "@/types/layout";
 import {Project} from "@/types/project";
 import {Milestone} from "@/types/about";
-import {Stack, Tool} from "@/types/stack";
+import {Stack} from "@/types/stack";
 
 export interface HomeMessages {
     hero: {
@@ -111,6 +111,30 @@ export interface StackMessages {
     }
 }
 
+export type ContactMessages = {
+    heroContent: {
+        heading: string;
+        subheading: string;
+        image: string;
+    };
+    contactLinksContent: {
+        heading: string;
+        contactLinks: {
+            name: string;
+            label: string;
+            href: string;
+            icon: string;
+        }[]
+    },
+    contactFormContent: {
+        heading: string;
+        namePlaceholder: string;
+        emailPlaceholder: string;
+        messagePlaceholder: string;
+        buttonPlaceholder: string;
+        className?: string;
+    }
+};
 
 export interface LayoutMessages {
     navItems: {

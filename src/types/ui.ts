@@ -1,4 +1,3 @@
-import type {Project} from "@/types/project";
 
 export type ButtonProps = {
     label: string;
@@ -32,27 +31,6 @@ export type CallToActionProps = {
     className?: string;
 }
 
-
-export type FeaturedProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
-    className?: string;
-    isActive: boolean;
-    onActivate: (id: number) => void;
-};
-
-export type ProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
-    className?: string;
-    reverse: boolean;
-};
-
-export type ContactFormProps = {
-    heading: string;
-    namePlaceholder: string;
-    emailPlaceholder: string;
-    messagePlaceholder: string;
-    buttonPlaceholder: string;
-    className?: string;
-}
-
 export type StepIndicatorProps = {
     value: number;
     maxSteps?: number;
@@ -69,11 +47,6 @@ export interface PageNavProps {
     prevLink?: { href: string; label?: string };
     nextLink?: { href: string; label?: string };
     className?: string;
-}
-
-export interface ProjectHeroProps {
-    heading: string;
-    imageUrl: string;
 }
 
 export interface ImageSliderProps {

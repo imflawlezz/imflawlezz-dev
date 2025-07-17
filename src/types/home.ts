@@ -35,6 +35,12 @@ export type StackOverviewProps = {
     }
 }
 
+export type FeaturedProjectCardProps = Pick<Project, 'id' | 'title' | 'description' | 'technologies' | 'imageUrl'> & {
+    className?: string;
+    isActive: boolean;
+    onActivate: (id: number) => void;
+};
+
 export type ShortAboutMeProps = {
     heading: string;
     paragraph: string[];
