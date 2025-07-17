@@ -1,3 +1,5 @@
+'use client';
+
 import {ContactFormProps} from "@/types/contact";
 import {PaperAirplaneIcon} from "@heroicons/react/16/solid";
 import {FormEvent, useState} from "react";
