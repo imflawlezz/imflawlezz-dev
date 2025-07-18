@@ -2,9 +2,9 @@
   "allProjectsLabel": "Все проекты",
   "tagsLabel": "Технологии",
   "descriptionLabel": "Описание",
-  "featuresLabel": "Ключевые особенности",
+  "featuresLabel": "Ключевые возможности",
   "screenshotsLabel": "Скриншоты",
   "commentLabel": "Комментарий разработчика",
-  "viewLiveLabel": "Посмотреть вживую",
-  "viewSourceLabel": "Посмотреть исходный код"
+  "viewLiveLabel": "Посмотреть онлайн",
+  "viewSourceLabel": "Исходный код"
 }
