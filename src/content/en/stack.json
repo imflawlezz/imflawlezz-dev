@@ -1,7 +1,7 @@
 {
   "heroContent": {
     "heading": "Tech Stack",
-    "subheading": "Here's a look at the technologies I work with most often, what I'm currently learning, and what I’ve explored along the way. I aim to build things that are fast, scalable, and intuitive — and I believe the right tools make all the difference.",
+    "subheading": "Here’s an overview of the technologies I use most, what I’m learning now, and what I’ve explored along the way. I focus on building fast, scalable, and intuitive web apps — and choosing the right tools is key.",
     "image": "hero-stack.jpg"
   },
   "sectionContent": {
@@ -9,35 +9,35 @@
       "category": [
         {
           "heading": "Core Technologies",
-          "description": "Technologies I use regularly and feel confident with.",
+          "description": "My main tools — used regularly and with confidence.",
           "technology": [
             {
               "name": "Next.js",
-              "description": "My go-to framework for web development",
+              "description": "My go-to framework for fast, modern web development.",
               "proficiency": 4.5,
               "image": "nextjs.png"
             },
             {
               "name": "TypeScript",
-              "description": "Strictly typed code is my standard — TypeScript helps me catch issues early while building scalable apps.",
+              "description": "Type-safe code helps me build scalable apps and catch bugs early.",
               "proficiency": 4,
               "image": "ts.png"
             },
             {
               "name": "Tailwind CSS",
-              "description": "I use Tailwind CSS almost instinctively — it’s my preferred way to build clean, consistent, and responsive UIs.",
+              "description": "My favorite way to design responsive, consistent, and clean UIs.",
               "proficiency": 5,
               "image": "tailwindcss.png"
             },
             {
               "name": "React",
-              "description": "Though I don’t use React directly much, it’s the foundation of Next.js — so I’m fully comfortable with its core concepts.",
+              "description": "The foundation of my frontend work — I use it mostly via Next.js.",
               "proficiency": 4.5,
               "image": "react.png"
             },
             {
               "name": "JavaScript",
-              "description": "I’m equally confident writing in plain JavaScript — it complements my TypeScript usage and expands compatibility.",
+              "description": "Fluent in vanilla JS — it complements my TypeScript work well.",
               "proficiency": 4,
               "image": "js.png"
             }
@@ -45,23 +45,23 @@
         },
         {
           "heading": "Currently Learning",
-          "description": "Technologies I’m currently exploring to go full-stack.",
+          "description": "Technologies I’m exploring to go full-stack and beyond.",
           "technology": [
             {
               "name": "Express",
-              "description": "I’m learning Express to build full-stack apps and better understand backend fundamentals.",
+              "description": "Learning backend fundamentals by building APIs with Express.",
               "proficiency": 1,
               "image": "express.png"
             },
             {
               "name": "MongoDB",
-              "description": "As part of my journey into full-stack development, I’m exploring MongoDB as a flexible, modern NoSQL database.",
+              "description": "Experimenting with MongoDB as a flexible NoSQL solution for modern apps.",
               "proficiency": 1,
               "image": "mongodb.png"
             },
             {
               "name": "Swift",
-              "description": "To develop native apps across Apple platforms, I’ve started learning Swift — a step toward full native mobile development.",
+              "description": "Diving into native iOS development with Swift — my first step into mobile.",
               "proficiency": 1.5,
               "image": "swift.png"
             }
@@ -69,41 +69,41 @@
         },
         {
           "heading": "Also Familiar With",
-          "description": "Technologies I’ve worked with in academic or side projects.",
+          "description": "Technologies I’ve used in university or earlier projects.",
           "technology": [
             {
               "name": "Java",
-              "description": "My favorite programming language. I studied it for over a year at university and still enjoy writing in it.",
+              "description": "One of my favorite languages — I studied it extensively at university.",
               "proficiency": 3.5,
               "image": "java.png"
             },
             {
               "name": "C++",
-              "description": "I use C++ primarily to program microcontrollers in my DIY hardware projects.",
+              "description": "I’ve used C++ for low-level programming and embedded tasks.",
               "proficiency": 3,
               "image": "cpp.png"
             },
             {
               "name": "HTML",
-              "description": "HTML is the foundation of the web — I know it thoroughly and treat it as second nature.",
+              "description": "A solid understanding of HTML is second nature to me.",
               "proficiency": 5,
               "image": "html.png"
             },
             {
               "name": "CSS",
-              "description": "CSS was one of the first tools I mastered, and it continues to be a key part of my frontend work alongside Tailwind.",
+              "description": "CSS was my entry point into design — it’s still a core part of my toolkit.",
               "proficiency": 5,
               "image": "css.png"
             },
             {
               "name": "Angular",
-              "description": "Angular was the first framework I explored. While it felt complex at first, I appreciated its component-based philosophy.",
+              "description": "My first JS framework — a bit complex, but it taught me key patterns.",
               "proficiency": 2.5,
               "image": "angular.png"
             },
             {
               "name": "Android Framework",
-              "description": "I’ve worked with the Android Framework in university and personal projects — it’s one of the reasons I love Java so much.",
+              "description": "Used in academic and personal projects — strengthened my Java skills.",
               "proficiency": 3.5,
               "image": "android.png"
             }
@@ -113,7 +113,7 @@
     },
     "toolsContent": {
       "heading": "Tools I Use",
-      "subheading": "My day-to-day tools for development, version control, and deployment.",
+      "subheading": "My daily setup — from development and version control to deployment.",
       "tools": [
         {
           "name": "WebStorm",
@@ -130,7 +130,7 @@
         {
           "name": "Arc",
           "image": "arc.png",
-          "description": "Web-browser",
+          "description": "Browser",
           "href": "https://arc.net/"
         },
         {

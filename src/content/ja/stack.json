@@ -1,43 +1,43 @@
 {
   "heroContent": {
     "heading": "技術スタック",
-    "subheading": "私が最も頻繁に使用する技術、現在学んでいること、そしてこれまでに探求してきた技術を紹介します。私の目標は、高速でスケーラブル、直感的なものを構築することです。適切なツールがすべてを変えると信じています。",
+    "subheading": "私が日常的に使っている技術、現在学んでいること、そしてこれまでに触れてきたツールの概要です。高速で拡張性があり、直感的なWebアプリを構築することを目指しており、そのためには最適なツール選びが欠かせません。",
     "image": "hero-stack.jpg"
   },
   "sectionContent": {
     "stackDetails": {
       "category": [
         {
-          "heading": "コア技術",
-          "description": "定期的に使用し、自信を持って扱える技術。",
+          "heading": "メインの技術",
+          "description": "普段から使っていて、自信を持って扱える技術です。",
           "technology": [
             {
               "name": "Next.js",
-              "description": "ウェブ開発における私の主要フレームワーク",
+              "description": "高速かつモダンなWeb開発のためのメインフレームワークです。",
               "proficiency": 4.5,
               "image": "nextjs.png"
             },
             {
               "name": "TypeScript",
-              "description": "厳格な型付けが私の標準です。TypeScriptはスケーラブルなアプリを構築する際に早期に問題を発見するのに役立ちます。",
+              "description": "型安全なコードにより、スケーラブルなアプリの構築やバグの早期発見が可能になります。",
               "proficiency": 4,
               "image": "ts.png"
             },
             {
               "name": "Tailwind CSS",
-              "description": "Tailwind CSSはほぼ本能的に使用しています。クリーンで一貫性があり、レスポンシブなUIを構築するための私の好む方法です。",
+              "description": "クリーンで一貫性のあるUIを素早く作れる、愛用しているCSSフレームワークです。",
               "proficiency": 5,
               "image": "tailwindcss.png"
             },
             {
               "name": "React",
-              "description": "Reactを直接使うことはあまりありませんが、Next.jsの基礎となっているため、その核心概念には完全に慣れています。",
+              "description": "フロントエンド開発の基盤であり、主にNext.jsを通じて使用しています。",
               "proficiency": 4.5,
               "image": "react.png"
             },
             {
               "name": "JavaScript",
-              "description": "プレーンなJavaScriptでも同様に自信を持って書けます。TypeScriptの使用を補完し、互換性を広げます。",
+              "description": "素のJavaScriptでも自在に書けるので、TypeScriptと併用しています。",
               "proficiency": 4,
               "image": "js.png"
             }
@@ -45,65 +45,65 @@
         },
         {
           "heading": "現在学習中",
-          "description": "フルスタック開発者になるために現在学んでいる技術。",
+          "description": "フルスタック開発者を目指して学んでいる技術です。",
           "technology": [
             {
               "name": "Express",
-              "description": "フルスタックアプリを構築し、バックエンドの基礎をより深く理解するためにExpressを学んでいます。",
+              "description": "Expressを使ってAPIを作りながら、バックエンドの基礎を学んでいます。",
               "proficiency": 1,
               "image": "express.png"
             },
             {
               "name": "MongoDB",
-              "description": "フルスタック開発への道のりの一環として、柔軟で現代的なNoSQLデータベースであるMongoDBを探求しています。",
+              "description": "柔軟なNoSQLデータベースとして、MongoDBを使ったモダンなアプリを試しています。",
               "proficiency": 1,
               "image": "mongodb.png"
             },
             {
               "name": "Swift",
-              "description": "Appleプラットフォーム向けのネイティブアプリを開発するため、Swiftの学習を始めました。ネイティブモバイル開発への第一歩です。",
+              "description": "iOS向けのネイティブアプリ開発を目指して、Swiftの基礎を学んでいます。",
               "proficiency": 1.5,
               "image": "swift.png"
             }
           ]
         },
         {
-          "heading": "その他の経験",
-          "description": "学術やサイドプロジェクトで扱った技術。",
+          "heading": "使用経験あり",
+          "description": "大学や個人プロジェクトで扱ったことのある技術です。",
           "technology": [
             {
               "name": "Java",
-              "description": "私のお気に入りのプログラミング言語。大学で1年以上学び、今でも書くのが楽しいです。",
+              "description": "大学で集中的に学んだ、特に好きなプログラミング言語のひとつです。",
               "proficiency": 3.5,
               "image": "java.png"
             },
             {
               "name": "C++",
-              "description": "主にDIYハードウェアプロジェクトでマイクロコントローラをプログラムするために使用しています。",
+              "description": "低レベルのプログラミングや組み込みタスクに使用してきました。",
               "proficiency": 3,
               "image": "cpp.png"
             },
             {
               "name": "HTML",
-              "description": "HTMLはウェブの基礎です。徹底的に理解しており、第二の天性のように扱っています。",
+              "description": "Webの基礎であり、自然に書ける言語です。",
               "proficiency": 5,
               "image": "html.png"
             },
             {
               "name": "CSS",
-              "description": "CSSは私が最初に習得したツールの一つで、Tailwindと並んでフロントエンド作業の重要な部分です。",
+              "description": "最初に学んだ技術のひとつで、今でも日常的に使っています。",
               "proficiency": 5,
               "image": "css.png"
             },
             {
               "name": "Angular",
-              "description": "Angularは私が最初に探求したフレームワークです。最初は複雑に感じましたが、コンポーネントベースの哲学は評価しています。",
+              "description": "最初に触れたフレームワーク。少し難しかったですが、コンポーネントの考え方を学べました。",
               "proficiency": 2.5,
               "image": "angular.png"
             },
             {
               "name": "Android Framework",
-              "description": "大学や個人プロジェクトでAndroid Frameworkを扱いました。Javaが大好きな理由の一つです。",
+              "description": "大学や個人プロジェクトで使用し、Javaの理解を深めるきっかけになりました。",
               "proficiency": 3.5,
               "image": "android.png"
             }
@@ -112,19 +112,19 @@
       ]
     },
     "toolsContent": {
-      "heading": "使用ツール",
-      "subheading": "開発、バージョン管理、デプロイに使用する日常ツール。",
+      "heading": "日常的に使うツール",
+      "subheading": "開発・バージョン管理・デプロイなど、普段使いのツール群です。",
       "tools": [
         {
           "name": "WebStorm",
           "image": "webstorm.png",
-          "description": "統合開発環境",
+          "description": "統合開発環境 (IDE)",
           "href": "https://www.jetbrains.com/webstorm"
         },
         {
           "name": "Zed",
           "image": "zed.png",
-          "description": "テキストエディタ",
+          "description": "テキストエディター",
           "href": "https://zed.dev"
         },
         {
@@ -148,13 +148,13 @@
         {
           "name": "Vercel",
           "image": "vercel.png",
-          "description": "デプロイ",
+          "description": "デプロイ / ホスティング",
           "href": "https://vercel.com/"
         },
         {
           "name": "Docker",
           "image": "docker.png",
-          "description": "コンテナ",
+          "description": "コンテナ管理",
           "href": "https://www.docker.com/"
         }
       ]
