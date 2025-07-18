@@ -1,44 +1,36 @@
 {
   "hero": {
     "heading": [
-      { "text": "こんにちは、私はエゴールです。", "br": true },
+      { "text": "こんにちは、Egorです —", "br": true },
       { "text": "", "br": false },
       { "text": "フロントエンド開発者", "className": "text-accent" },
       { "text": "、", "br": true },
       { "text": "学生", "className": "text-accent-secondary" },
       { "text": "、", "br": true },
-      { "text": "テックエンスージアスト", "className": "text-attention", "prefix": "そして" },
-      { "text": "。" }
+      { "text": "テクノロジー好き", "className": "text-attention", "prefix": "そして " },
+      { "text": "です。" }
     ],
     "paragraph": [
-      "モダンでレスポンシブなウェブサイトを構築し、フルスタック開発の世界を探求しています。",
-      "インターフェースのコーディングをしていない時は、モバイルアプリのプロトタイプ作成やマイクロコントローラーを使ったDIYスマートデバイスの開発をしています。",
-      "常に学び、常に構築しています。"
+      "高速でアクセシブルなレスポンシブサイトを、細部までこだわって作っています。",
+      "マイコンを使った電子工作やモバイルアプリのプロトタイピングも大好きです。",
+      "好奇心と情熱を原動力に、常に新しいことを学び続けています。"
     ],
     "buttons": [
-      {
-        "label": "作品を見る",
-        "linkHref": "/projects",
-        "isPrimary": true
-      },
-      {
-        "label": "連絡する",
-        "linkHref": "/contact",
-        "isPrimary": false
-      }
+      { "label": "プロジェクトを見る", "linkHref": "/projects", "isPrimary": true },
+      { "label": "お問い合わせ", "linkHref": "/contact", "isPrimary": false }
     ]
   },
 
   "featuredProject": {
     "heading": "注目のプロジェクト",
     "linkContent": {
-      "label": "全てのプロジェクトを見る",
+      "label": "すべてのプロジェクトを見る",
       "href": "/projects"
     }
   },
 
   "stackOverview": {
-    "heading": "技術スタック概要",
+    "heading": "技術スタック",
     "stack": [
       { "name": "Next.js", "icon": "nextjs.png" },
       { "name": "Typescript", "icon": "typescript.png" },
@@ -47,7 +39,7 @@
       { "name": "React", "icon": "react.png" }
     ],
     "linkContent": {
-      "label": "技術スタック全体を見る",
+      "label": "全技術を見る",
       "href": "/stack"
     }
   },
@@ -55,27 +47,19 @@
   "aboutMe": {
     "heading": "自己紹介",
     "paragraph": [
-      "私はポーランド在住のフロントエンド開発者でコンピュータサイエンスの学生、エゴールです。React、Tailwind、Next.jsなどの技術を使ってモダンでアクセシブルなインターフェースを構築するのが好きです。",
-      "ウェブ開発以外では、組み込みシステムやモバイルアプリの実験を行い、創造性と電子工学を組み合わせてアイデアを形にしています。学び、構築し、意味を感じるものを作ることに情熱を注いでいます。",
-      "もっと知りたいですか？"
+      "Egorです。ポーランド在住のフロントエンド開発者で、コンピュータサイエンスを専攻しています。",
+      "子供の頃の好奇心がきっかけでプログラミングに出会い、今はReact・Tailwind・TypeScriptを使ってWebを作っています。",
+      "日本語の勉強や電子工作、音楽制作、写真も楽しんでいます。"
     ]
   },
 
   "callToAction": {
-    "heading": "一緒に働きませんか？",
-    "subheading": "素晴らしいものを作りましょう。",
+    "heading": "一緒に何か面白いことをしませんか？",
+    "subheading": "技術と創造力を掛け合わせて、新しい何かを作りましょう。",
     "image": "cta-home.jpg",
     "buttons": [
-      {
-        "label": "連絡する",
-        "linkHref": "/contact",
-        "className": ""
-      },
-      {
-        "label": "ポートフォリオを見る",
-        "linkHref": "/projects",
-        "className": ""
-      }
+      { "label": "お問い合わせ", "linkHref": "/contact", "className": "" },
+      { "label": "ポートフォリオを見る", "linkHref": "/projects", "className": "" }
     ],
     "className": "items-start text-left"
   }

@@ -3,34 +3,26 @@
     "heading": [
       { "text": "Cześć, jestem Egor —", "br": true },
       { "text": "", "br": false },
-      { "text": "frontend developerem", "className": "text-accent" },
+      { "text": "frontend developer", "className": "text-accent" },
       { "text": ",", "br": true },
-      { "text": "studentem", "className": "text-accent-secondary" },
+      { "text": "student", "className": "text-accent-secondary" },
       { "text": ",", "br": true },
-      { "text": "pasjonatem technologii", "className": "text-attention", "prefix": "i " },
+      { "text": "pasjonat technologii", "className": "text-attention", "prefix": "i " },
       { "text": "." }
     ],
     "paragraph": [
-      "Tworzę nowoczesne, responsywne strony internetowe i zgłębiam świat rozwoju full-stack.",
-      "Kiedy nie koduję interfejsów, prototypuję aplikacje mobilne i tworzę inteligentne urządzenia DIY oparte na mikrokontrolerach.",
-      "Nieustannie się uczę. Nieustannie tworzę."
+      "Tworzę szybkie, responsywne i dostępne strony — z naciskiem na detale i komfort użytkownika.",
+      "Poza tym buduję własne urządzenia elektroniczne i tworzę aplikacje mobilne z wykorzystaniem mikrokontrolerów.",
+      "Z natury ciekawy, z pasji twórczy — i zawsze głodny nowej wiedzy."
     ],
     "buttons": [
-      {
-        "label": "Zobacz moje prace",
-        "linkHref": "/projects",
-        "isPrimary": true
-      },
-      {
-        "label": "Skontaktuj się",
-        "linkHref": "/contact",
-        "isPrimary": false
-      }
+      { "label": "Zobacz projekty", "linkHref": "/projects", "isPrimary": true },
+      { "label": "Skontaktuj się", "linkHref": "/contact", "isPrimary": false }
     ]
   },
 
   "featuredProject": {
-    "heading": "Wyróżnione projekty",
+    "heading": "Polecane projekty",
     "linkContent": {
       "label": "Zobacz wszystkie projekty",
       "href": "/projects"
@@ -38,7 +30,7 @@
   },
 
   "stackOverview": {
-    "heading": "Stos technologiczny",
+    "heading": "Technologie",
     "stack": [
       { "name": "Next.js", "icon": "nextjs.png" },
       { "name": "Typescript", "icon": "typescript.png" },
@@ -47,7 +39,7 @@
       { "name": "React", "icon": "react.png" }
     ],
     "linkContent": {
-      "label": "Zobacz pełny stos technologiczny",
+      "label": "Pełna lista technologii",
       "href": "/stack"
     }
   },
@@ -55,27 +47,19 @@
   "aboutMe": {
     "heading": "O mnie",
     "paragraph": [
-      "Jestem Egor, frontend developerem i studentem informatyki mieszkającym w Polsce. Uwielbiam tworzyć nowoczesne, dostępne interfejsy korzystając z technologii takich jak React, Tailwind i Next.js.",
-      "Poza rozwojem stron internetowych, eksperymentuję z systemami wbudowanymi i aplikacjami mobilnymi - łączę kreatywność z elektroniką, aby ożywiać pomysły. Pasjonuję się nauką, tworzeniem i realizowaniem projektów, które mają znaczenie.",
-      "Chcesz wiedzieć więcej?"
+      "Nazywam się Egor i studiuję informatykę w Polsce. Zajmuję się frontendem, tworząc nowoczesne interfejsy w React, Tailwind i TypeScript.",
+      "Moja przygoda z programowaniem zaczęła się w dzieciństwie z czystej ciekawości. Dziś rozwijam swoje pomysły w realne projekty.",
+      "Po godzinach uczę się języka japońskiego, eksperymentuję z elektroniką, komponuję muzykę i fotografuję."
     ]
   },
 
   "callToAction": {
-    "heading": "Chcesz współpracować?",
-    "subheading": "Stwórzmy coś wspaniałego.",
+    "heading": "Stwórzmy coś wyjątkowego",
+    "subheading": "Szukasz osoby z wiedzą techniczną i kreatywnym podejściem? Porozmawiajmy.",
     "image": "cta-home.jpg",
     "buttons": [
-      {
-        "label": "Skontaktuj się",
-        "linkHref": "/contact",
-        "className": ""
-      },
-      {
-        "label": "Zobacz portfolio",
-        "linkHref": "/projects",
-        "className": ""
-      }
+      { "label": "Skontaktuj się", "linkHref": "/contact", "className": "" },
+      { "label": "Zobacz portfolio", "linkHref": "/projects", "className": "" }
     ],
     "className": "items-start text-left"
   }
