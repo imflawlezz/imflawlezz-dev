@@ -3,7 +3,7 @@
     { "label": "Strona główna", "href": "/" },
     { "label": "O mnie", "href": "/about" },
     { "label": "Projekty", "href": "/projects" },
-    { "label": "Technologie", "href": "/stack" },
+    { "label": "Stack technologiczny", "href": "/stack" },
     { "label": "Kontakt", "href": "/contact" }
   ],
 
@@ -28,13 +28,13 @@
   "footer": {
     "sitemapTitle": "Mapa strony",
     "infoTitle": "Informacje",
-    "infoQuote": "Projektuj z troską. Buduj z celem.",
-    "locationNote": "Miejsce pracy: Polska 🇵🇱, otwarty na pracę zdalną",
+    "infoQuote": "Projektuj z troską. Twórz z celem.",
+    "locationNote": "Z siedzibą w Polsce 🇵🇱, dostępny do pracy zdalnej",
     "downloadCv": "Pobierz CV",
     "contactTitle": "Skontaktuj się",
     "email": "imflawlezz13@gmail.com",
     "madeWith": "Stworzone z ❤️ i",
     "madeWithTech": "Next.js",
-    "copyright": "© 2025 Yahor Artsiomchyk. Wszelkie prawa zastrzeżone."
+    "copyright": "© 2025 imflawlezz. Wszelkie prawa zastrzeżone."
   }
 }

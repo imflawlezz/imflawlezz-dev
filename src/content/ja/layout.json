@@ -4,7 +4,7 @@
     { "label": "自己紹介", "href": "/about" },
     { "label": "プロジェクト", "href": "/projects" },
     { "label": "技術スタック", "href": "/stack" },
-    { "label": "連絡先", "href": "/contact" }
+    { "label": "お問い合わせ", "href": "/contact" }
   ],
 
   "footerLinks": [
@@ -27,14 +27,14 @@
 
   "footer": {
     "sitemapTitle": "サイトマップ",
-    "infoTitle": "情報",
-    "infoQuote": "心を込めてデザインし、目的を持って構築する。",
-    "locationNote": "ポーランド🇵🇱在住、リモートワーク可能",
+    "infoTitle": "インフォメーション",
+    "infoQuote": "丁寧にデザインし、意図をもって構築する。",
+    "locationNote": "ポーランド拠点 🇵🇱、リモートワーク歓迎",
     "downloadCv": "履歴書をダウンロード",
     "contactTitle": "お問い合わせ",
     "email": "imflawlezz13@gmail.com",
-    "madeWith": "❤️と共に作成",
-    "madeWithTech": "Next.js",
-    "copyright": "© 2025 Yahor Artsiomchyk. 全著作権所有。"
+    "madeWith": "❤️ と",
+    "madeWithTech": "Next.js で制作",
+    "copyright": "© 2025 imflawlezz. 無断転載を禁じます。"
   }
 }
