@@ -1,22 +1,22 @@
 {
   "heroContent": {
     "heading": "O mnie",
-    "subheading": "Programista, twórca i wieczny uczeń. Pasjonuję się nie tylko tworzeniem stron, ale także realizacją pomysłów. Ta strona jest bardziej osobista — oto moja historia.",
+    "subheading": "Programista, twórca i wieczny uczeń. Pasjonuję się tworzeniem nie tylko stron, ale i idei. Ta strona to bardziej osobista część — oto moja historia.",
     "image": "hero-about.jpg"
   },
 
   "journeyContent": {
-    "heading": "Moja podróż",
+    "heading": "Moja droga",
     "paragraph": [
-      "Zacząłem programować z ciekawości — zafascynowany tym, jak działają interfejsy i jak reagują maszyny. Z czasem ta ciekawość przerodziła się w pasję.",
-      "Obecnie studiuję informatykę w Polsce i skupiam się głównie na frontendzie, korzystając z Reacta i Next.js. Poza tym eksploruję świat systemów wbudowanych i projektów IoT opartych na BLE."
+      "Jako dziecko przypadkowo trafiłem na kurs programowania dla początkujących i po raz pierwszy poznałem HTML, CSS, JavaScript i PHP. Ta ciekawość szybko przerodziła się w pasję — przerobiłem mnóstwo kursów, tworzyłem małe projekty i w wieku 14 lat brałem udział w miejskich konkursach webowych.",
+      "Z czasem odkryłem nowoczesne technologie webowe i ukształtowałem swój obecny stack. Studiuję informatykę w Polsce i skupiam się na frontendzie z Next.js i TypeScript — z pełnym zaangażowaniem w tę ścieżkę zawodową."
     ],
     "milestones": [
-      { "year": "2017", "label": "Odkryłem HTML i CSS" },
-      { "year": "2018", "label": "Poznałem JavaScript" },
-      { "year": "2021", "label": "Odkryłem Bootstrap" },
+      { "year": "2017", "label": "Poznałem HTML i CSS" },
+      { "year": "2018", "label": "Odkryłem JavaScript i jQuery" },
+      { "year": "2021", "label": "Zacząłem używać Bootstrapa" },
       { "year": "2023", "label": "Rozpocząłem studia informatyczne" },
-      { "year": "2024", "label": "Poznawałem frameworki webowe" },
+      { "year": "2024", "label": "Zgłębiłem frameworki i TypeScript" },
       { "label": "A to dopiero początek..." }
     ]
   },
@@ -25,9 +25,10 @@
     "heading": "Co cenię",
     "reverse": false,
     "paragraph": [
-      "Wierzę, że świetne oprogramowanie to nie tylko funkcjonalność — to także przemyślane rozwiązania.",
-      "Dbam o czysty kod, dostępność, przejrzysty design i celowość w każdym tworzonym produkcie.",
-      "Niezależnie, czy to pełna aplikacja full-stack, czy prototyp sprzętowy — staram się tworzyć rzeczy, z których przyjemnie się korzysta."
+      "Wierzę, że dobre oprogramowanie to nie tylko funkcjonalność, ale też troska o użytkownika.",
+      "Zależy mi na czystym kodzie, dostępności, przejrzystym designie i sensowności tworzonych produktów.",
+      "Niezależnie czy to aplikacja full-stack, czy prosta strona — chcę, żeby korzystanie z niej było przyjemne.",
+      "Dla mnie liczy się rzemiosło — szczegóły robią różnicę."
     ],
     "image": "value.jpeg"
   },
@@ -36,15 +37,15 @@
     "heading": "Poza kodem",
     "reverse": true,
     "paragraph": [
-      "Poza programowaniem uwielbiam odkrywać kulturę japońską, majsterkować z DIY elektroniką i czasami projektować własne urządzenia od podstaw.",
-      "Wierzę, że kreatywność i ciekawość idą w parze — czy to przy budowaniu nowego urządzenia, czy nauce języka obcego."
+      "Interesuję się japońską kulturą i uczę się języka japońskiego. W wolnym czasie uwielbiam budować własne urządzenia elektroniczne — to połączenie programowania z fizyczną twórczością bardzo mnie inspiruje.",
+      "Gdy przychodzi wena, piszę muzykę lub robię zdjęcia. Te pasje podtrzymują moją kreatywność i ciekawość świata."
     ],
     "image": "beyond-code.jpeg"
   },
 
   "callToAction": {
-    "heading": "Chcesz się skontaktować lub współpracować?",
-    "subheading": "Porozmawiajmy. Zawsze chętnie poznaję ciekawych ludzi.",
+    "heading": "Zbudujmy coś wartościowego",
+    "subheading": "Masz pomysł, projekt lub po prostu chcesz pogadać? Z przyjemnością się poznam.",
     "image": "cta-about.jpg",
     "buttons": [
       {
@@ -53,6 +54,6 @@
         "className": ""
       }
     ],
-    "className": "items-start text-left"
+    "className": "items-center text-center"
   }
 }

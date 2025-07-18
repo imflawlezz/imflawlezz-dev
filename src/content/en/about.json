@@ -1,22 +1,22 @@
 {
   "heroContent": {
     "heading": "About Me",
-    "subheading" : "A developer, maker and lifelong learner. I’m passionate about building not just websites, but ideas. This page is a bit more personal — here’s my story.",
+    "subheading": "A developer, maker, and lifelong learner. I’m passionate about building not just websites, but ideas. This page is a bit more personal — here’s my story.",
     "image": "hero-about.jpg"
   },
 
   "journeyContent": {
     "heading": "My Journey",
     "paragraph": [
-      "I started programming out of curiosity — fascinated by how interfaces work and how machines respond. Over time, that curiosity turned into a passion.",
-      "Now I study computer science in Poland and focus mainly on frontend development using React and Next.js. But on the side, I explore the world of embedded systems and BLE-based IoT projects."
+      "As a kid, I stumbled upon a beginner programming course and got my first taste of HTML, CSS, JavaScript, and PHP. That spark turned into a passion — I dove into countless tutorials, built small projects, and even entered local web development competitions at 14.",
+      "Over time, I discovered modern web technologies and gradually shaped the tech stack I use today. Now I’m studying computer science in Poland, focusing on frontend development with Next.js and TypeScript — and fully committed to turning this craft into my life’s work."
     ],
     "milestones": [
       { "year": "2017", "label": "Discovered HTML & CSS" },
-      { "year": "2018", "label": "Explored JavaScript" },
+      { "year": "2018", "label": "Explored JavaScript and jQuery" },
       { "year": "2021", "label": "Discovered Bootstrap" },
-      { "year": "2023", "label": "Started CS Degree" },
-      { "year": "2024", "label": "Explored Web Frameworks" },
+      { "year": "2023", "label": "Started Computer Science Degree" },
+      { "year": "2024", "label": "Explored Web Frameworks and TypeScript" },
       { "label": "And that's only the beginning..." }
     ]
   },
@@ -27,7 +27,8 @@
     "paragraph": [
       "I believe great software is not just functional — it’s thoughtful.",
       "I care about clean code, accessibility, clear design, and a sense of purpose in every product I build.",
-      "Whether it's a full-stack app or a hardware prototype, I strive to create things that feel good to use."
+      "Whether it's a full-stack app or a simple landing page, I strive to create things that feel good to use.",
+      "To me, craftsmanship matters — and I take pride in the details."
     ],
     "image": "value.jpeg"
   },
@@ -36,15 +37,15 @@
     "heading": "Beyond Code",
     "reverse": true,
     "paragraph": [
-      "Outside of development, I enjoy exploring Japanese culture, tinkering with DIY electronics, and occasionally designing my own devices from scratch.",
-      "I believe that creativity and curiosity go hand in hand — whether it's building a new device or learning a new language."
+      "I’m deeply fascinated by Japanese culture and currently learning the Japanese language. In my free time, I love building DIY electronics and creating my own custom devices — it’s where coding meets hands-on creativity.",
+      "When inspiration strikes, I also enjoy writing music and capturing moments through amateur photography. These hobbies keep me curious, creative, and always learning."
     ],
     "image": "beyond-code.jpeg"
   },
 
   "callToAction": {
-    "heading": "Want to connect or collaborate?",
-    "subheading": "Let’s talk. I’m always happy to meet curious minds.",
+    "heading": "Let’s build something meaningful",
+    "subheading": "Whether you're looking to collaborate, share ideas, or just have a good conversation — I’d love to connect.",
     "image": "cta-about.jpg",
     "buttons": [
       {
@@ -53,6 +54,6 @@
         "className": ""
       }
     ],
-    "className": "items-end text-right"
+    "className": "items-center text-center"
   }
 }
