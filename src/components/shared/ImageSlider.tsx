@@ -32,7 +32,7 @@ export const ImageSlider = ({
                                 src={src}
                                 alt={`${alt} ${idx + 1}`}
                                 fill
-                                className="object-cover"
+                                className="object-cover object-top"
                             />
                         </div>
                     </div>
