@@ -1,11 +1,11 @@
 {
   "heroContent": {
     "heading": "Get in touch",
-    "subheading": "Whether you have a question, want to start a project, or just want to say hi — I'd love to hear from you.",
+    "subheading": "Have a question, a project idea, or just want to connect? I’m always open to meaningful conversations — let’s make something great together.",
     "image": "hero-contact.jpg"
   },
   "contactLinksContent": {
-    "heading": "Contact",
+    "heading": "Let’s connect",
     "contactLinks": [
       {
         "name": "Telegram",
@@ -34,10 +34,10 @@
     ]
   },
   "contactFormContent": {
-    "heading": "Leave a message",
+    "heading": "Send me a message",
     "namePlaceholder": "Your name",
     "emailPlaceholder": "Your email",
-    "messagePlaceholder": "Your message",
+    "messagePlaceholder": "What would you like to talk about?",
     "buttonPlaceholder": "Send"
   }
 }

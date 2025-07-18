@@ -1,11 +1,11 @@
 {
   "heroContent": {
     "heading": "お問い合わせ",
-    "subheading": "質問がある場合、プロジェクトを始めたい場合、または単に挨拶したい場合でも、ぜひご連絡ください。",
+    "subheading": "質問がある方、プロジェクトの相談をしたい方、または気軽に挨拶したい方も大歓迎です。気軽にご連絡ください。一緒に素敵なものをつくりましょう！",
     "image": "hero-contact.jpg"
   },
   "contactLinksContent": {
-    "heading": "連絡先",
+    "heading": "つながりましょう",
     "contactLinks": [
       {
         "name": "Telegram",
@@ -34,10 +34,10 @@
     ]
   },
   "contactFormContent": {
-    "heading": "メッセージを残す",
+    "heading": "メッセージを送る",
     "namePlaceholder": "お名前",
     "emailPlaceholder": "メールアドレス",
-    "messagePlaceholder": "メッセージ内容",
-    "buttonPlaceholder": "送信"
+    "messagePlaceholder": "話したいことをご自由にどうぞ",
+    "buttonPlaceholder": "送信する"
   }
 }

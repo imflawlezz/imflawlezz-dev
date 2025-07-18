@@ -1,11 +1,11 @@
 {
   "heroContent": {
-    "heading": "Skontaktuj się",
-    "subheading": "Niezależnie od tego, czy masz pytanie, chcesz rozpocząć projekt, czy po prostu się przywitać — chętnie Cię usłyszę.",
+    "heading": "Skontaktuj się ze mną",
+    "subheading": "Masz pytanie, pomysł na projekt albo po prostu chcesz się przywitać? Z przyjemnością porozmawiam — stwórzmy razem coś wyjątkowego.",
     "image": "hero-contact.jpg"
   },
   "contactLinksContent": {
-    "heading": "Kontakt",
+    "heading": "Porozmawiajmy",
     "contactLinks": [
       {
         "name": "Telegram",
@@ -34,10 +34,10 @@
     ]
   },
   "contactFormContent": {
-    "heading": "Zostaw wiadomość",
+    "heading": "Wyślij wiadomość",
     "namePlaceholder": "Twoje imię",
-    "emailPlaceholder": "Twój email",
-    "messagePlaceholder": "Twoja wiadomość",
+    "emailPlaceholder": "Twój e-mail",
+    "messagePlaceholder": "O czym chciałbyś/chciałabyś porozmawiać?",
     "buttonPlaceholder": "Wyślij"
   }
 }

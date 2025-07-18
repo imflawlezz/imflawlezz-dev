@@ -1,11 +1,11 @@
 {
   "heroContent": {
-    "heading": "Свяжитесь со мной",
-    "subheading": "Если у вас есть вопрос, вы хотите начать проект или просто поздороваться — я буду рад услышать вас.",
+    "heading": "Связаться со мной",
+    "subheading": "Есть вопрос, идея проекта или просто хочется пообщаться? Буду рад интересному разговору — давай создадим что-то классное вместе.",
     "image": "hero-contact.jpg"
   },
   "contactLinksContent": {
-    "heading": "Контакты",
+    "heading": "Давай пообщаемся",
     "contactLinks": [
       {
         "name": "Telegram",
@@ -34,10 +34,10 @@
     ]
   },
   "contactFormContent": {
-    "heading": "Оставить сообщение",
+    "heading": "Напиши мне",
     "namePlaceholder": "Ваше имя",
     "emailPlaceholder": "Ваш email",
-    "messagePlaceholder": "Ваше сообщение",
+    "messagePlaceholder": "О чём вы хотите поговорить?",
     "buttonPlaceholder": "Отправить"
   }
 }
