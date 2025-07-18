@@ -1,54 +1,129 @@
 [
   {
     "id": 1,
-    "description": "Strona Grovemade. System półek biurkowych.",
-    "fullDescription": [""],
-    "features": ["Responsywny layout", "Prosta struktura komponentowa"],
-    "devComment": ""
+    "description": "Grovemade Desk Shelf System — minimalistyczna strona docelowa dla ekskluzywnego produktu do biura.",
+    "fullDescription": [
+      "Ta strona prezentuje elegancki, modułowy organizer na biurko wykonany z naturalnego drewna — zaprojektowany z myślą o funkcjonalności i estetyce. ",
+      "Zbudowałem ją przy użyciu czystego HTML5, scoped CSS oraz modularnych komponentów React w Next.js. Działa płynnie i wygląda świetnie na każdym urządzeniu. ",
+      "Najważniejsze cechy to responsywny układ, eleganckie animacje interfejsu i nacisk na jakość materiałów oraz detale produktu."
+    ],
+    "features": [
+      "W pełni responsywny układ (od telefonu po desktop)",
+      "Struktura komponentowa oparta na React + Next.js",
+      "Zoptymalizowane obrazy i szybkie ładowanie",
+      "Semantyczny HTML dla dostępności i SEO"
+    ],
+    "devComment": "Odtworzyłem stronę Grovemade, aby przećwiczyć tworzenie dopracowanych interfejsów z użyciem Next.js, TypeScript i Tailwind CSS. Skupiłem się na responsywności, strukturze i czystym stylu, aby oddać minimalistyczny charakter marki."
   },
   {
     "id": 2,
-    "description": "Strona Dudeshape. Nowoczesne meble.",
-    "fullDescription": [""],
-    "features": ["Responsywny layout", "Prosta struktura komponentowa"],
-    "devComment": ""
+    "description": "Dudeshape — projekt odtworzenia strony docelowej",
+    "fullDescription": [
+      "Czysta i responsywna strona docelowa zbudowana w Next.js i Tailwind CSS, wdrożona na platformie Vercel. ",
+      "To rekonstrukcja istniejącego layoutu, stworzona w celu doskonalenia umiejętności frontendowych i zgłębiania nowoczesnej architektury React. ",
+      "Projekt pokazuje ponowne wykorzystanie komponentów, podejście mobile-first i stylowanie przy użyciu klas narzędziowych."
+    ],
+    "features": [
+      "Tailwind CSS jako narzędziowy framework",
+      "Projektowanie mobile-first",
+      "Komponentowa architektura w React",
+      "Struktura kodu edukacyjno-portfolio"
+    ],
+    "devComment": "Ten projekt był świetną zabawą — odtwarzałem układ strony, dbając o czystą strukturę, komponenty React i dobrą prezentację na urządzeniach mobilnych."
   },
   {
     "id": 3,
-    "description": "Strona Roby. Kreatywna agencja z Helsinek.",
-    "fullDescription": [""],
-    "features": ["Responsywny layout", "Struktura komponentowa", "Zaawansowane animacje z użyciem \"motion\""],
-    "devComment": ""
+    "description": "Roby — strona docelowa agencji kreatywnej",
+    "fullDescription": [
+      "Dopracowana i stylowa strona docelowa dla agencji kreatywnej, zbudowana w Next.js i Tailwind CSS. ",
+      "Układ doskonale dopasowuje się do różnych ekranów i podkreśla wizualną narrację. ",
+      "Zawiera renderowanie po stronie serwera dla szybkiego ładowania i lepszego SEO."
+    ],
+    "features": [
+      "Optymalizacja obrazów z wykorzystaniem Next.js",
+      "Responsywny framework Tailwind CSS",
+      "Komponentowa architektura w React",
+      "Breakpointy dla urządzeń mobilnych",
+      "SEO dzięki renderowaniu po stronie serwera",
+      "Nowoczesne układy oparte na CSS Grid i Flexbox"
+    ],
+    "devComment": "Ten projekt pomógł mi rozwinąć wyczucie estetyki i umiejętności responsywnego projektowania. Skupiłem się na płynnym przepływie układu i solidnej strukturze SEO z użyciem Next.js."
   },
   {
     "id": 4,
-    "description": "Strona Latte Cafe. Nagradzana kawiarnia i bar.",
-    "fullDescription": [""],
-    "features": ["Responsywny layout", "Prosta struktura komponentowa"],
-    "devComment": ""
+    "description": "Latte Cafe — strona z nawigacją mobilną",
+    "fullDescription": [
+      "Przytulna strona docelowa dla kawiarni, zbudowana w Next.js i ostylowana przy użyciu Tailwind CSS. ",
+      "Wykorzystuje dane statyczne do generowania komponentów i zawiera płynnie działające menu mobilne z animacją. ",
+      "Prosta, przejrzysta i przyjazna dla użytkowników mobilnych — tak jak dobra strona kawiarni powinna wyglądać."
+    ],
+    "features": [
+      "Generowanie komponentów na podstawie danych statycznych",
+      "Mobilne menu typu hamburger",
+      "Lekka architektura Next.js",
+      "Responsywne klasy Tailwind CSS",
+      "Mapowanie danych do dynamicznego renderowania",
+      "Zarządzanie stanem komponentu dla menu",
+      "Czyste rozdzielenie danych i prezentacji"
+    ],
+    "devComment": "To był świetny trening łączenia prostego mapowania danych z UX mobilnym. Nauczyłem się dużo o zarządzaniu stanami i utrzymaniu porządku w interfejsie."
   },
   {
     "id": 5,
-    "description": "Strona Woodendot. Meble tworzące harmonię w unikalnych i ponadczasowych przestrzeniach.",
-    "fullDescription": [""],
-    "features": ["Responsywny layout", "Prosta struktura komponentowa"],
-    "devComment": ""
+    "description": "Woodendot — strona docelowa z modułowymi meblami",
+    "fullDescription": [
+      "Szczegółowo dopracowana strona docelowa, stworzona w TypeScript, Next.js i Tailwind CSS, z myślą o skalowalności. ",
+      "Zastosowałem modułową strukturę projektu z oddzielnymi folderami dla sekcji, współdzielonych komponentów i funkcji pomocniczych. ",
+      "Głównym celem było zachowanie czystości kodu i gotowość do rozwoju w rzeczywistych warunkach."
+    ],
+    "features": [
+      "Wykorzystanie TypeScript dla bezpieczeństwa typów",
+      "Modułowa architektura komponentów (sekcje / wspólne)",
+      "Warstwa abstrakcji danych",
+      "Oddzielone funkcje pomocnicze",
+      "Czysta struktura z naciskiem na skalowalność",
+      "Stylowanie narzędziowe Tailwind CSS",
+      "Optymalizacja zasobów statycznych",
+      "Zorganizowany kod gotowy do rozwoju"
+    ],
+    "devComment": "To był mój pierwszy projekt zorganizowany w sposób przypominający prawdziwy zespół developerski. Skupiłem się na strukturze plików i możliwości ponownego użycia — to bardzo ułatwiło rozwój i zrozumienie kodu."
   },
   {
     "id": 6,
-    "description": "Strona Wishbone+Partners. Dom pięknej architektury.",
-    "fullDescription": [""],
-    "features": ["Responsywny layout", "Prosta struktura komponentowa"],
-    "devComment": ""
+    "description": "Wishbone+Partners — strona dla studia architektury",
+    "fullDescription": [
+      "Ekskluzywna strona docelowa dla studia architektonicznego, stworzona w Next.js i TypeScript. ",
+      "Wykorzystuje statyczne treści do sekcji zespołu, procesu i portfolio, zachowując przy tym czystość i skalowalność układu. ",
+      "Idealny projekt do nauki ponownego użycia komponentów i organizacji kodu pod kątem rozwoju."
+    ],
+    "features": [
+      "TypeScript dla lepszej kontroli typów",
+      "Zaawansowana modułowa architektura komponentów",
+      "Zarządzanie treścią na bazie danych statycznych",
+      "Profesjonalna organizacja projektu",
+      "Responsywny design z Tailwind CSS",
+      "Skalowalna struktura funkcji pomocniczych"
+    ],
+    "devComment": "To jeden z moich najbardziej uporządkowanych projektów — podszedłem do niego jak zespół programistyczny. Dzięki TypeScript i rozbiciu na komponenty poprawiłem swoje umiejętności organizacyjne."
   },
   {
     "id": 7,
-    "description": "Imflawlezz.dev. Moja strona portfolio. Właśnie ją przeglądasz.",
+    "description": "imflawlezz.dev — moje portfolio online",
     "fullDescription": [
-      "Celem tej strony było pokazanie wszystkich moich prac, umiejętności i krótkiej historii.",
-      "Włożyłem dużo czasu i wysiłku, aby strona wyglądała dobrze i miała wszystkie niezbędne funkcje."
+      "Moje osobiste portfolio zbudowane w Next.js, z obsługą wielu języków, przełączaniem motywów i responsywnym układem. ",
+      "Zoptymalizowane pod kątem dostępności, SEO i wygody użytkowania na różnych urządzeniach i językach. "
     ],
-    "features": ["Responsywny layout", "Zaawansowana struktura komponentowa", "Internacjonalizacja", "Tryb ciemny"],
-    "devComment": "Ma tutaj dosłownie wszystko, co tylko można XD"
+    "features": [
+      "Next.js z architekturą App Router",
+      "Obsługa wielu języków (i18n)",
+      "Przełączanie trybu jasnego/ciemnego",
+      "Wykrywanie preferencji systemowych",
+      "Responsywny design mobile-first",
+      "Struktura profesjonalnego portfolio",
+      "SEO z obsługą metadanych",
+      "Zapamiętywanie motywu między sesjami",
+      "Dostępne komponenty UI z ARIA"
+    ],
+    "devComment": "To moja cyfrowa wizytówka. Stworzyłem ją, by pokazać wszystko, czego się nauczyłem — od i18n po dostępność i motywy. Projekt będzie się rozwijał razem ze mną."
   }
 ]

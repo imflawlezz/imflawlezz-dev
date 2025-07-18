@@ -1,54 +1,135 @@
 [
   {
     "id": 1,
-    "description": "Grovemade landing. The Desk Shelf System.",
-    "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
-    "devComment": ""
+    "description": "Grovemade Desk Shelf System — minimal landing page for a premium workspace product.",
+    "fullDescription": [
+      "This landing page showcases a beautiful modular desk organizer made of natural wood — designed to improve both functionality and aesthetics.",
+      "I built it using clean HTML5, scoped CSS, and modular React components with Next.js. It works great on any device and feels smooth to scroll.",
+      "Highlights include responsive layout, elegant UI transitions, and visual focus on product materials and details."
+    ],
+    "features": [
+      "Fully responsive layout (mobile to desktop)",
+      "Component-based structure using React + Next.js",
+      "Optimized images and performance-focused loading",
+      "Semantic HTML for accessibility and SEO"
+    ],
+    "devComment": "I recreated the Grovemade landing to practice premium UI work using Next.js, TypeScript, and Tailwind CSS. I focused on responsiveness, structure, and clean styling to capture the brand's minimal look."
   },
+
   {
     "id": 2,
-    "description": "Dudeshape landing. Modern furniture",
-    "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
-    "devComment": ""
+    "description": "Dudeshape — landing page recreation project",
+    "fullDescription": [
+      "A clean and responsive landing page, built with Next.js and Tailwind CSS, and deployed on Vercel.",
+      "This is a remake of an existing layout, created to sharpen my frontend skills and explore modern React structure.",
+      "It demonstrates component reuse, mobile-first design, and utility-based styling."
+    ],
+    "features": [
+      "Tailwind CSS utility-first framework",
+      "Mobile-first responsive design",
+      "Component-based React architecture",
+      "Educational/portfolio codebase structure"
+    ],
+    "devComment": "This was a fun practice project where I recreated a landing page layout. I focused on keeping the structure clean, using React components with Tailwind, and making it look great on mobile."
   },
+
   {
     "id": 3,
-    "description": "Roby landing. A creative agency based in Helsinki.",
-    "fullDescription": [""],
-    "features": ["Responsive layout", "Component-based structure", "Advanced animations using \"motion\""],
-    "devComment": ""
+    "description": "Roby — creative agency landing page",
+    "fullDescription": [
+      "A polished and stylish landing page for a creative agency, built with Next.js and Tailwind CSS.",
+      "The layout adapts beautifully to all screen sizes and highlights visual storytelling.",
+      "Includes server-side rendering for fast load and better SEO."
+    ],
+    "features": [
+      "Next.js with advanced Image optimization",
+      "Tailwind CSS responsive framework",
+      "Component-based React architecture",
+      "Mobile-first responsive breakpoints",
+      "SEO-optimized server-side rendering",
+      "Modern CSS Grid and Flexbox layouts"
+    ],
+    "devComment": "This project helped me sharpen my design sense and responsiveness skills. I focused on smooth layout flow and solid SEO structure with Next.js."
   },
+
   {
     "id": 4,
-    "description": "Latte Cafe Landing. Award winning cafe and bar.",
-    "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
-    "devComment": ""
+    "description": "Latte Cafe — landing page with mobile nav",
+    "fullDescription": [
+      "A cozy landing page for a café, built in Next.js and styled with Tailwind CSS.",
+      "It uses static data to render components and includes a smooth mobile menu with toggle animation.",
+      "Simple, clean, and mobile-friendly — just like a good coffee shop site should be."
+    ],
+    "features": [
+      "Static data-driven component generation",
+      "Mobile hamburger menu",
+      "Next.js compact architecture",
+      "Tailwind CSS responsive utilities",
+      "Data mapping for dynamic content rendering",
+      "Component state management for menu toggle",
+      "Clean separation of data and presentation layers"
+    ],
+    "devComment": "This was a great exercise in combining simple data mapping and mobile UX. I learned a lot about managing small UI states and keeping everything tidy."
   },
+
   {
     "id": 5,
-    "description": "Woodendot landing. Furniture designed to live in harmony, creating distinctive and timeless spaces.",
-    "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
-    "devComment": ""
+    "description": "Woodendot — modular furniture landing",
+    "fullDescription": [
+      "A detailed landing page built with TypeScript, Next.js, and Tailwind CSS, structured for scalability.",
+      "I used a modular project structure with dedicated folders for sections, shared components, and utility functions.",
+      "The focus was on keeping code maintainable and ready for real-world expansion."
+    ],
+    "features": [
+      "TypeScript integration for type safety",
+      "Modular component architecture (sections/shared)",
+      "Dedicated data abstraction layer",
+      "Utility functions separation",
+      "Clean project structure with scalability focus",
+      "Tailwind CSS utility-first styling",
+      "Static asset optimization",
+      "Maintainable codebase organization"
+    ],
+    "devComment": "This was my first time fully organizing a project like a real-world team would. I focused on clear file structure and reusability — it made the whole project easier to scale and understand."
   },
+
   {
     "id": 6,
-    "description": "Wishbone+Partners landing. The home of beautiful architecture.",
-    "fullDescription": [""],
-    "features": ["Responsive layout", "Simple component-based structure"],
-    "devComment": ""
+    "description": "Wishbone+Partners — architecture studio landing",
+    "fullDescription": [
+      "A high-end landing page for an architecture studio, built with Next.js and TypeScript.",
+      "It uses structured static content for team, process, and portfolio sections, and keeps the layout clean and scalable.",
+      "Ideal for exploring component reuse and scalable project organization."
+    ],
+    "features": [
+      "TypeScript for enhanced type safety",
+      "Advanced modular component architecture",
+      "Static data-driven content management",
+      "Professional project structure organization",
+      "Tailwind CSS responsive design system",
+      "Scalable utility functions architecture"
+    ],
+    "devComment": "This was one of my most structured projects — I tried to approach it like a full dev team would. Using TypeScript and component breakdowns really helped me level up my organizational skills."
   },
+
   {
     "id": 7,
-    "description": "Imflawlezz.dev. My portfolio website. You are currently viewing it.",
+    "description": "imflawlezz.dev — personal portfolio site",
     "fullDescription": [
-      "So the idea of this site was to show all my work, together with skills an short story of mine.",
-      "I put a lot of time and effort to make this site look good and have all the necessary functionality."
+      "My personal portfolio built with Next.js, featuring multi-language support, theme switching, and responsive layouts.",
+      "It’s fully optimized for accessibility, SEO, and user experience across devices and languages."
     ],
-    "features": ["Responsive layout", "Advanced component-based structure", "Internationalized", "Dark theme"],
-    "devComment": "Has literally everything that can be here XD"
+    "features": [
+      "Next.js with App Router architecture",
+      "Internationalization (i18n) with multi-language support",
+      "Dynamic dark/light theme switching",
+      "System preference detection for theme",
+      "Responsive design with mobile-first approach",
+      "Professional portfolio structure",
+      "SEO optimization with metadata handling",
+      "Theme persistence across sessions",
+      "Accessible UI components with ARIA support"
+    ],
+    "devComment": "This site is my digital home. I built it to reflect everything I’ve learned — multi-language support, dynamic themes, clean accessibility. It’s always evolving as I grow as a developer."
   }
 ]
