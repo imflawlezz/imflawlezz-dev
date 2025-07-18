@@ -13,6 +13,11 @@ export const projectsData : Project[] = [
         liveUrl: "https://grovemade-landing.vercel.app/",
         features: ['Responsive layout', 'Simple component-based structure'],
         devComment: "",
+        screenshots: [
+            resolveAsset('screenshots', `01_1.png`),
+            resolveAsset('screenshots', `01_2.png`),
+            resolveAsset('screenshots', `01_3.png`),
+        ]
     },
     {
         id: 2,
@@ -25,6 +30,12 @@ export const projectsData : Project[] = [
         liveUrl: "https://dudeshape-landing.vercel.app/",
         features: ['Responsive layout', 'Slightly better component-based structure'],
         devComment: "",
+        screenshots: [
+            resolveAsset('screenshots', `02_1.png`),
+            resolveAsset('screenshots', `02_2.png`),
+            resolveAsset('screenshots', `02_3.png`),
+            resolveAsset('screenshots', `02_4.png`),
+        ]
     },
     {
         id: 3,
@@ -37,6 +48,13 @@ export const projectsData : Project[] = [
         liveUrl: "https://roby-landing-delta.vercel.app/",
         features: ['Responsive layout', 'Component-based structure', 'Advanced animations using "motion"'],
         devComment: "",
+        screenshots: [
+            resolveAsset('screenshots', `03_1.png`),
+            resolveAsset('screenshots', `03_2.png`),
+            resolveAsset('screenshots', `03_3.png`),
+            resolveAsset('screenshots', `03_4.png`),
+            resolveAsset('screenshots', `03_5.png`),
+        ]
     },
     {
         id: 4,
@@ -49,6 +67,12 @@ export const projectsData : Project[] = [
         liveUrl: "https://latte-cafe-landing.vercel.app/",
         features: ['Responsive layout', 'Slightly better component-based structure'],
         devComment: "",
+        screenshots: [
+            resolveAsset('screenshots', `04_1.png`),
+            resolveAsset('screenshots', `04_2.png`),
+            resolveAsset('screenshots', `04_3.png`),
+            resolveAsset('screenshots', `04_4.png`),
+        ]
     },
     {
         id: 5,
@@ -61,6 +85,13 @@ export const projectsData : Project[] = [
         liveUrl: "https://woodendot-nine.vercel.app/",
         features: ['Responsive layout', 'Slightly better component-based structure'],
         devComment: "",
+        screenshots: [
+            resolveAsset('screenshots', `05_1.png`),
+            resolveAsset('screenshots', `05_2.png`),
+            resolveAsset('screenshots', `05_3.png`),
+            resolveAsset('screenshots', `05_4.png`),
+            resolveAsset('screenshots', `05_5.png`)
+        ]
     },
     {
         id: 6,
@@ -73,11 +104,17 @@ export const projectsData : Project[] = [
         liveUrl: "https://wishbone-landing.vercel.app/",
         features: ['Responsive layout', 'Slightly better component-based structure'],
         devComment: "",
+        screenshots: [
+            resolveAsset('screenshots', `06_1.png`),
+            resolveAsset('screenshots', `06_2.png`),
+            resolveAsset('screenshots', `06_3.png`),
+            resolveAsset('screenshots', `06_4.png`)
+        ]
     },
     {
         id: 7,
         title: 'imflawlezz.dev',
-        technologies: ['Next.js', 'Tailwind CSS', 'Typescript', 'Redis', 'Vercel Serverless Backend'],
+        technologies: ['Next.js', 'Tailwind CSS', 'Typescript'],
         description: "Imflawlezz.dev. My portfolio website. You are currently viewing it.",
         fullDescription:
             ["So the idea of this site was to show all my work, together with skills an short story of mine.",
@@ -88,9 +125,12 @@ export const projectsData : Project[] = [
         features: ['Responsive layout', 'Slightly better component-based structure'],
         devComment: "Has literally everything that can be here XD",
         screenshots: [
-            resolveAsset('screenshots', `imflawlezz-dev-1.jpeg`),
-            resolveAsset('screenshots', 'imflawlezz-dev-2.jpeg'),
-            resolveAsset('screenshots', 'imflawlezz-dev-3.jpeg'),
+            resolveAsset('screenshots', `07_1.png`),
+            resolveAsset('screenshots', `07_2.png`),
+            resolveAsset('screenshots', `07_3.png`),
+            resolveAsset('screenshots', `07_4.png`),
+            resolveAsset('screenshots', `07_5.png`),
+            resolveAsset('screenshots', `07_6.png`),
         ]
     },
 
