@@ -1,12 +1,12 @@
 {
   "heroContent": {
     "heading": "My projects",
-    "subheading": "A collection of things I’ve built — from full-stack apps to DIY hardware devices. Some are passion projects, others are learning experiments, all of them taught me something new.",
+    "subheading": "A collection of web projects I've built — from full-stack apps to polished frontend experiences. Each one reflects a step in my growth as a developer.",
     "image": "hero-projects.jpg"
   },
   "callToAction": {
-    "heading": "Want to know more about how I built these?",
-    "subheading": "Let’s talk — or check out my GitHub for more.",
+    "heading": "Curious how these were built?",
+    "subheading": "Let’s talk — or explore the code on GitHub.",
     "image": "cta-projects.jpg",
     "buttons": [
       {
