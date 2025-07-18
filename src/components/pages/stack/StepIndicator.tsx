@@ -5,17 +5,15 @@ export const StepIndicator = ({
                                   value = 0,
                                   maxSteps = 5,
                                   className = '',
-                                  barWidth = 4,
-                                  barHeight = 2,
                                   spacing = 2,
-                                  filledColor = 'bg-accent',
+                                  filledColor = 'bg-accent-secondary',
                                   emptyColor = 'bg-muted',
                               }: StepIndicatorProps) => {
     const clampedValue = Math.max(0, Math.min(maxSteps, value));
     const fullBars = Math.floor(clampedValue);
     const hasHalfBar = clampedValue % 1 >= 0.5;
     const gap = `gap-${spacing}`;
-    const dimensions = `w-${barWidth} h-${barHeight}`;
+    const dimensions = `w-4 h-2`;
 
     const renderBar = (index: number) => {
         const isFullyFilled = index < fullBars;

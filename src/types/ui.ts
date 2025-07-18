@@ -35,8 +35,6 @@ export type StepIndicatorProps = {
     value: number;
     maxSteps?: number;
     className?: string;
-    barWidth?: number;
-    barHeight?: number;
     spacing?: number;
     filledColor?: string;
     emptyColor?: string;
