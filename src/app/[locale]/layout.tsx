@@ -5,13 +5,22 @@ import { Footer } from "@/components/layout/Footer";
 import { Sora, Zen_Kaku_Gothic_New } from "next/font/google";
 import "../globals.css";
 import { LayoutMessages } from "@/types/i18n";
+import {Metadata} from "next";
 
-const sora = Sora({ variable: "--font-heading", subsets: ["latin"] });
+const sora = Sora({
+    variable: "--font-heading",
+    subsets: ["latin"]
+});
 const zenKaku = Zen_Kaku_Gothic_New({
     variable: "--font-sans",
     subsets: ["latin"],
     weight: ["300", "400", "500", "700"],
 });
+
+export const metadata: Metadata = {
+    title: "imflawlezz.dev",
+    description: "Web Developer portfolio",
+};
 
 export default async function RootLayout({
     children,
