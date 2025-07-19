@@ -28,8 +28,8 @@ export const LanguageSwitcher = () => {
                     key={code}
                     className={`px-2 py-1 rounded-sm transition font-bold ${
                         currentLang === code
-                            ? 'text-background bg-foreground'
-                            : 'text-muted hover:text-foreground hover:bg-accent-secondary'
+                            ? 'text-background bg-muted'
+                            : 'text-muted hover:text-background hover:bg-accent'
                     }`}
                     onClick={() => handleLanguageChange(code)}
                 >

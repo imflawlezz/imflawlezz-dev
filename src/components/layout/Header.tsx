@@ -1,7 +1,7 @@
 'use client';
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
 import { Logo } from "@/components/ui/Logo";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
@@ -14,6 +14,7 @@ export const Header = ({
     navItems,
 }: HeaderProps) => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [languageMenuOpen, setLanguageMenuOpen] = useState(false);
 
 
     return (
@@ -29,6 +30,29 @@ export const Header = ({
 
                 ))}
                 <ThemeToggle />
+                <AnimatePresence>
+                    {languageMenuOpen && (
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95, x: 15 }}
+                            animate={{ opacity: 1, scale: 1, x: 0 }}
+                            exit={{ opacity: 0, scale: 0.95, x: 15 }}
+                            transition={{ duration: 0.2 }}
+                            className="
+                                md:bg-background md:rounded-sm md:p-1 md:absolute top-full right-0
+                                lg:bg-transparent lg:rounded-none lg:p-0 lg:relative
+                            "
+                        >
+                            <LanguageSwitcher />
+                        </motion.div>
+                    )}
+                </AnimatePresence>
+                <button
+                    onClick={() => setLanguageMenuOpen(!languageMenuOpen)}
+                    className="text-muted hover:scale-125 transition-all duration-300"
+                    aria-label="Language options"
+                >
+                    <GlobeAltIcon className="h-5 w-5" />
+                </button>
             </nav>
 
             <button className="md:hidden p-2 text-foreground" onClick={() => setMenuOpen(true)}>
