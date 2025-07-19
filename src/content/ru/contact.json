@@ -26,6 +26,18 @@
         "icon": "github.svg"
       },
       {
+        "name": "Upwork",
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/~01074dd7ea9aef340d?mp_source=share",
+        "icon": "upwork.svg"
+      },
+      {
+        "name": "Fiverr",
+        "label": "fiverr.com/imflawlezz13",
+        "href": "https://www.fiverr.com/imflawlezz13",
+        "icon": "fiverr.svg"
+      },
+      {
         "name": "LinkedIn",
         "label": "linkedin.com/in/imflawlezz13",
         "href": "https://linkedin.com/in/imflawlezz13",
