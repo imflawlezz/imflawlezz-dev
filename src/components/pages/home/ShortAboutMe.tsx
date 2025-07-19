@@ -31,7 +31,7 @@ export const ShortAboutMe = ({
                 src={resolveAsset('sections', 'my-photo.jpeg')}
                 width={728}
                 height={1024}
-                className="h-auto w-auto md:w-full px-20 py-10 md:p-0"
+                className="h-auto w-auto md:w-1/3 px-20 py-10 md:p-0"
             />
         </section>
     )
