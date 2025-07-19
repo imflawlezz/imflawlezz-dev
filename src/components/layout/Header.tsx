@@ -29,7 +29,6 @@ export const Header = ({
                     />
 
                 ))}
-                <ThemeToggle />
                 <AnimatePresence>
                     {languageMenuOpen && (
                         <motion.div
@@ -53,6 +52,8 @@ export const Header = ({
                 >
                     <GlobeAltIcon className="h-5 w-5" />
                 </button>
+                <ThemeToggle />
+
             </nav>
 
             <button className="md:hidden p-2 text-foreground" onClick={() => setMenuOpen(true)}>
