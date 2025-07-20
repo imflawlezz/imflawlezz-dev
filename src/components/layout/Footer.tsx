@@ -43,7 +43,7 @@ export const Footer = ({
                             {footer.locationNote}
 
                         <Link
-                            href={"https://example.com"}
+                            href={"/cv.pdf"}
                             className="text-accent-secondary hover:text-accent-secondary-hover transition-all
                             duration-300 underline underline-offset-4"
                         >
